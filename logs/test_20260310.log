@@ -1,0 +1,985 @@
+2026-03-10 10:14:35 [INFO] conftest: Setting up Chrome WebDriver for: test_flights_page_loads_successfully
+2026-03-10 10:14:46 [INFO] conftest: ChromeDriver resolved: C:\Users\Sujan Kumar Reddy\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe
+2026-03-10 10:14:50 [INFO] tests.test_end_to_end_booking: TC-01: Verify flights page loads
+2026-03-10 10:14:50 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:14:56 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:14:56 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:14:59 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:15:04 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:15:04 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:15:04 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:15:04 [INFO] pages.base_page: Screenshot saved: screenshots\tc01_page_loaded_20260310_101504.png
+2026-03-10 10:15:04 [INFO] tests.test_end_to_end_booking: TC-01 PASSED
+2026-03-10 10:15:05 [INFO] conftest: Tearing down WebDriver for: test_flights_page_loads_successfully
+2026-03-10 10:15:12 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-10 10:15:12 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-10 10:15:12 [INFO] conftest: Setting up Chrome WebDriver for: test_select_departure_and_arrival_cities
+2026-03-10 10:15:14 [INFO] tests.test_end_to_end_booking: TC-02: Select cities
+2026-03-10 10:15:14 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:15:20 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:15:20 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:15:21 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:15:26 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:15:26 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:15:26 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:15:26 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-10 10:15:48 [INFO] pages.flight_search_page: Flight type set: One Way (custom dropdown)
+2026-03-10 10:15:49 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:15:49 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:15:56 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:16:01 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:16:01 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:16:01 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:16:01 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:16:08 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:16:13 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:16:15 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:16:16 [INFO] pages.base_page: Screenshot saved: screenshots\tc02_cities_selected_20260310_101615.png
+2026-03-10 10:16:16 [INFO] tests.test_end_to_end_booking: TC-02 PASSED
+2026-03-10 10:16:16 [INFO] conftest: Tearing down WebDriver for: test_select_departure_and_arrival_cities
+2026-03-10 10:16:22 [INFO] conftest: Setting up Chrome WebDriver for: test_select_future_departure_date
+2026-03-10 10:16:24 [INFO] tests.test_end_to_end_booking: TC-03: Select future date
+2026-03-10 10:16:24 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:16:34 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:16:34 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:16:35 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:16:41 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:16:41 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:16:41 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:16:41 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:16:42 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:16:43 [INFO] pages.base_page: Screenshot saved: screenshots\tc03_future_date_set_20260310_101642.png
+2026-03-10 10:16:43 [INFO] tests.test_end_to_end_booking: TC-03 PASSED
+2026-03-10 10:16:43 [INFO] conftest: Tearing down WebDriver for: test_select_future_departure_date
+2026-03-10 10:16:50 [INFO] conftest: Setting up Chrome WebDriver for: test_select_number_of_passengers
+2026-03-10 10:16:51 [INFO] tests.test_end_to_end_booking: TC-04: Select passengers
+2026-03-10 10:16:51 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:17:01 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:17:01 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:17:02 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:17:07 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:17:07 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:17:07 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:17:07 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:17:22 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:17:23 [INFO] pages.base_page: Screenshot saved: screenshots\tc04_passengers_selected_20260310_101722.png
+2026-03-10 10:17:23 [INFO] tests.test_end_to_end_booking: TC-04 PASSED
+2026-03-10 10:17:23 [INFO] conftest: Tearing down WebDriver for: test_select_number_of_passengers
+2026-03-10 10:17:30 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_no_past_date_selection
+2026-03-10 10:17:31 [INFO] tests.test_end_to_end_booking: TC-05: Validate past date blocked
+2026-03-10 10:17:31 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:17:35 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:17:35 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:17:37 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:17:42 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:17:42 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:17:42 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:17:44 [INFO] pages.base_page: Screenshot saved: screenshots\tc05_past_date_validation_20260310_101743.png
+2026-03-10 10:17:44 [INFO] tests.test_end_to_end_booking: TC-05 PASSED
+2026-03-10 10:17:44 [INFO] conftest: Tearing down WebDriver for: test_validate_no_past_date_selection
+2026-03-10 10:17:54 [INFO] conftest: Setting up Chrome WebDriver for: test_search_one_way_flight
+2026-03-10 10:17:55 [INFO] tests.test_end_to_end_booking: TC-06: One-way search
+2026-03-10 10:17:55 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:17:59 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:17:59 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:18:00 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:18:05 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:18:05 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:18:05 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:18:05 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-10 10:18:05 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-10 10:18:26 [INFO] pages.flight_search_page: Flight type set: One Way (custom dropdown)
+2026-03-10 10:18:26 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:18:26 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:18:32 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:18:37 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:18:37 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:18:37 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:18:37 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:18:43 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:18:48 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:18:49 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:18:49 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:18:50 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:18:51 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:19:02 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:19:02 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260310_101902.png
+2026-03-10 10:19:02 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:19:16 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:19:16 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/oneway/economy/17-03-2026/1/0/0
+2026-03-10 10:19:16 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:19:24 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:19:24 [INFO] pages.base_page: Screenshot saved: screenshots\tc06_results_20260310_101924.png
+2026-03-10 10:19:31 [INFO] pages.flight_results_page: are_results_displayed: 50 book button(s) found
+2026-03-10 10:19:31 [INFO] tests.test_end_to_end_booking: TC-06 PASSED
+2026-03-10 10:19:31 [INFO] conftest: Tearing down WebDriver for: test_search_one_way_flight
+2026-03-10 10:19:38 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_search_results_displayed
+2026-03-10 10:19:39 [INFO] tests.test_end_to_end_booking: TC-07: Validate results displayed
+2026-03-10 10:19:39 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:19:42 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:19:42 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:19:43 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:19:48 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:19:48 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:19:48 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:19:48 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-10 10:19:48 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-10 10:20:09 [INFO] pages.flight_search_page: Flight type set: One Way (custom dropdown)
+2026-03-10 10:20:09 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:20:09 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:20:15 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:20:20 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:20:21 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:20:21 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:20:21 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:20:27 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:20:32 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:20:34 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:20:34 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:20:34 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:20:34 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:20:46 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:20:46 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260310_102046.png
+2026-03-10 10:20:46 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:20:59 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:20:59 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/oneway/economy/17-03-2026/1/0/0
+2026-03-10 10:20:59 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:21:08 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:21:13 [INFO] pages.flight_results_page: are_results_displayed: 50 book button(s) found
+2026-03-10 10:21:13 [INFO] tests.test_end_to_end_booking: Count: 152 Flights
+2026-03-10 10:21:13 [INFO] pages.base_page: Screenshot saved: screenshots\tc07_results_20260310_102113.png
+2026-03-10 10:21:13 [INFO] tests.test_end_to_end_booking: TC-07 PASSED
+2026-03-10 10:21:13 [INFO] conftest: Tearing down WebDriver for: test_validate_search_results_displayed
+2026-03-10 10:21:21 [INFO] conftest: Setting up Chrome WebDriver for: test_verify_price_is_displayed
+2026-03-10 10:21:22 [INFO] tests.test_end_to_end_booking: TC-08: Verify price displayed
+2026-03-10 10:21:22 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:21:31 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:21:31 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:21:32 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:21:37 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:21:37 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:21:37 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:21:37 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-10 10:21:37 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-10 10:21:58 [INFO] pages.flight_search_page: Flight type set: One Way (custom dropdown)
+2026-03-10 10:21:58 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:21:58 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:22:04 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:22:09 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:22:09 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:22:09 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:22:10 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:22:15 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:22:20 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:22:22 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:22:22 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:22:25 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:22:25 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:22:36 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:22:36 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260310_102236.png
+2026-03-10 10:22:36 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:22:49 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:22:49 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/oneway/economy/17-03-2026/1/0/0
+2026-03-10 10:22:49 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:22:57 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:22:57 [INFO] tests.test_end_to_end_booking: Price: USD
+2026-03-10 10:22:57 [INFO] pages.base_page: Screenshot saved: screenshots\tc08_price_20260310_102257.png
+2026-03-10 10:22:57 [INFO] tests.test_end_to_end_booking: TC-08 PASSED
+2026-03-10 10:22:57 [INFO] conftest: Tearing down WebDriver for: test_verify_price_is_displayed
+2026-03-10 10:23:04 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='RoundTripFlight'
+2026-03-10 10:23:04 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'RoundTripFlight'
+2026-03-10 10:23:04 [INFO] conftest: Setting up Chrome WebDriver for: test_search_round_trip_flight
+2026-03-10 10:23:05 [INFO] tests.test_end_to_end_booking: TC-09: Round-trip search
+2026-03-10 10:23:05 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:23:12 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:23:12 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:23:13 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:23:18 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:23:18 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:23:18 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:23:18 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-10 10:23:18 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-10 10:23:39 [INFO] pages.flight_search_page: Flight type set: Round Trip (custom dropdown)
+2026-03-10 10:23:39 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:23:39 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:23:45 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:23:50 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:23:50 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:23:50 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:23:50 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:23:56 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:24:01 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:24:02 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:24:02 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:24:03 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:24:03 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-10 10:24:04 [INFO] pages.flight_search_page: Date set via send_keys: '24-03-2026'
+2026-03-10 10:24:05 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:24:15 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:24:16 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260310_102415.png
+2026-03-10 10:24:16 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:24:28 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:24:29 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/roundtrip/economy/17-03-2026/24-03-2026/1/0/0
+2026-03-10 10:24:29 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:24:37 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:24:37 [INFO] pages.base_page: Screenshot saved: screenshots\tc09_roundtrip_results_20260310_102437.png
+2026-03-10 10:24:38 [INFO] pages.flight_results_page: are_results_displayed: 21 book button(s) found
+2026-03-10 10:24:38 [INFO] tests.test_end_to_end_booking: TC-09 PASSED
+2026-03-10 10:24:38 [INFO] conftest: Tearing down WebDriver for: test_search_round_trip_flight
+2026-03-10 10:24:45 [INFO] conftest: Setting up Chrome WebDriver for: test_round_trip_results_have_prices
+2026-03-10 10:24:47 [INFO] tests.test_end_to_end_booking: TC-10: Round-trip prices
+2026-03-10 10:24:47 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:24:52 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:24:52 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:24:54 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:24:59 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:24:59 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:24:59 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:24:59 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-10 10:24:59 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-10 10:25:19 [INFO] pages.flight_search_page: Flight type set: Round Trip (custom dropdown)
+2026-03-10 10:25:20 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:25:20 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:25:26 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:25:31 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:25:31 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:25:31 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:25:31 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:25:37 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:25:42 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:25:43 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:25:43 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:25:44 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:25:44 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-10 10:25:44 [INFO] pages.flight_search_page: Date set via send_keys: '24-03-2026'
+2026-03-10 10:25:45 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:25:56 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:25:56 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260310_102556.png
+2026-03-10 10:25:56 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:26:08 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:26:08 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/roundtrip/economy/17-03-2026/24-03-2026/1/0/0
+2026-03-10 10:26:08 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:26:16 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:26:17 [INFO] tests.test_end_to_end_booking: Price: USD
+2026-03-10 10:26:17 [INFO] pages.base_page: Screenshot saved: screenshots\tc10_roundtrip_prices_20260310_102617.png
+2026-03-10 10:26:17 [INFO] tests.test_end_to_end_booking: TC-10 PASSED
+2026-03-10 10:26:17 [INFO] conftest: Tearing down WebDriver for: test_round_trip_results_have_prices
+2026-03-10 10:26:23 [INFO] conftest: Setting up Chrome WebDriver for: test_oneway_end_to_end_booking
+2026-03-10 10:26:25 [INFO] tests.test_end_to_end_booking: TC-11: One-way end-to-end booking
+2026-03-10 10:26:25 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:26:29 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:26:29 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:26:31 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:26:36 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:26:36 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:26:36 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:26:36 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-10 10:26:36 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-10 10:26:56 [INFO] pages.flight_search_page: Flight type set: One Way (custom dropdown)
+2026-03-10 10:26:57 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:26:57 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:27:03 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:27:08 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:27:08 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:27:08 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:27:08 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:27:14 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:27:19 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:27:21 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:27:21 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:27:21 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:27:21 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:27:32 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:27:32 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260310_102732.png
+2026-03-10 10:27:32 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:27:45 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:27:45 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/oneway/economy/17-03-2026/1/0/0
+2026-03-10 10:27:45 [INFO] tests.test_end_to_end_booking: Step 1: Search done
+2026-03-10 10:27:45 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:27:53 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:27:58 [WARNING] pages.flight_results_page: are_results_displayed attempt 1 stale/error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1267dd3
+	0x1267e14
+	0x1071db0
+	0x10789cd
+	0x107af62
+	0x10fc471
+	0x10dea3c
+	0x10fb621
+	0x10de7d6
+	0x10b0049
+	0x10b0e04
+	0x14c6924
+	0x14c1bf7
+	0x14df5a0
+	0x1280f58
+	0x128891d
+	0x1270648
+	0x1270812
+	0x125a21a
+	0x758a5d49
+	0x774ad81b
+	0x774ad7a1
+
+2026-03-10 10:28:01 [INFO] pages.flight_results_page: are_results_displayed: 50 book button(s) found
+2026-03-10 10:28:01 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step2_results_20260310_102801.png
+2026-03-10 10:28:01 [INFO] pages.flight_results_page: Clicking Book Now on first available flight
+2026-03-10 10:28:06 [INFO] pages.flight_results_page: Strategy 1 (button 'Book Now' with btn class, no href): 50 found
+2026-03-10 10:28:07 [INFO] pages.flight_results_page: Clicked Book Now: tag=button, text='flight_takeoff
+Book Now'
+2026-03-10 10:28:09 [INFO] pages.flight_results_page: Book Now clicked OK, URL: https://phptravels.net/flights/booking/5f65fa346456417c
+2026-03-10 10:28:09 [INFO] tests.test_end_to_end_booking: Step 2: Book Now clicked
+2026-03-10 10:28:09 [INFO] pages.booking_page: Waiting for booking page to load...
+2026-03-10 10:28:12 [INFO] pages.booking_page: Booking page URL: https://phptravels.net/flights/booking/5f65fa346456417c
+2026-03-10 10:28:12 [INFO] pages.booking_page: Booking page title: Complete Booking - PHPTRAVELS
+2026-03-10 10:28:12 [INFO] pages.booking_page: Booking form inputs detected
+2026-03-10 10:28:12 [INFO] pages.booking_page: Total form elements: 32
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_guest placeholder= visible=True
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_login placeholder= visible=True
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=email name= id=quick_login_email placeholder=Enter Email visible=False
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=password name= id=quick_login_password placeholder=Enter password visible=False
+2026-03-10 10:28:12 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter First Name visible=True
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter Last Name visible=True
+2026-03-10 10:28:12 [INFO] pages.booking_page:   input type=email name= id= placeholder=Enter Email visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   input type=tel name= id= placeholder=Enter Phone Number visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   input type=checkbox name= id=booking_for_someone_else placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   input type=hidden name=booking_type id= placeholder= visible=False
+2026-03-10 10:28:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:14 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=text name= id= placeholder=6 - 15 Numbers visible=True
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=radio name=payment id=payment_6 placeholder= visible=True
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=radio name=payment id=payment_3 placeholder= visible=True
+2026-03-10 10:28:14 [INFO] pages.booking_page:   input type=radio name=payment id=payment_7 placeholder= visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=radio name=payment id=payment_5 placeholder= visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=checkbox name= id=terms_accepted placeholder= visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=hidden name=csrf_token id= placeholder= visible=False
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter promo code visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page: Total form elements: 32
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_guest placeholder= visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_login placeholder= visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=email name= id=quick_login_email placeholder=Enter Email visible=False
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=password name= id=quick_login_password placeholder=Enter password visible=False
+2026-03-10 10:28:15 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:15 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter First Name visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter Last Name visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=email name= id= placeholder=Enter Email visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=tel name= id= placeholder=Enter Phone Number visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=checkbox name= id=booking_for_someone_else placeholder= visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=hidden name=booking_type id= placeholder= visible=False
+2026-03-10 10:28:16 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:28:16 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:17 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:17 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:17 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=text name= id= placeholder=6 - 15 Numbers visible=True
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=radio name=payment id=payment_6 placeholder= visible=True
+2026-03-10 10:28:17 [INFO] pages.booking_page:   input type=radio name=payment id=payment_3 placeholder= visible=True
+2026-03-10 10:28:18 [INFO] pages.booking_page:   input type=radio name=payment id=payment_7 placeholder= visible=True
+2026-03-10 10:28:18 [INFO] pages.booking_page:   input type=radio name=payment id=payment_5 placeholder= visible=True
+2026-03-10 10:28:18 [INFO] pages.booking_page:   input type=checkbox name= id=terms_accepted placeholder= visible=True
+2026-03-10 10:28:18 [INFO] pages.booking_page:   input type=hidden name=csrf_token id= placeholder= visible=False
+2026-03-10 10:28:18 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter promo code visible=True
+2026-03-10 10:28:18 [INFO] pages.base_page: Screenshot saved: screenshots\booking_form_elements_20260310_102818.png
+2026-03-10 10:28:18 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step3a_form_20260310_102818.png
+2026-03-10 10:28:18 [INFO] pages.booking_page: === Filling guest details ===
+2026-03-10 10:28:18 [INFO] pages.booking_page: Selecting Guest Booking option
+2026-03-10 10:28:19 [INFO] pages.base_page: Screenshot saved: screenshots\booking_guest_before_fill_20260310_102818.png
+2026-03-10 10:28:19 [INFO] pages.booking_page: Guest radio selected
+2026-03-10 10:28:19 [INFO] pages.booking_page: Filling title: Mr
+2026-03-10 10:28:19 [INFO] pages.booking_page: Selected (exact): 'Mr'
+2026-03-10 10:28:19 [INFO] pages.booking_page: Title set to: Mr
+2026-03-10 10:28:19 [INFO] pages.booking_page: Filling first name: John
+2026-03-10 10:28:21 [INFO] pages.booking_page: Filled input: 'John'
+2026-03-10 10:28:21 [INFO] pages.booking_page: Filling last name: Doe
+2026-03-10 10:28:22 [INFO] pages.booking_page: Filled input: 'Doe'
+2026-03-10 10:28:22 [INFO] pages.booking_page: Filling email: ks7964@email.com
+2026-03-10 10:28:22 [INFO] pages.booking_page: Filled input: 'ks7964@email.com'
+2026-03-10 10:28:22 [INFO] pages.booking_page: Filling country code: 'IN +91'
+2026-03-10 10:28:22 [INFO] pages.booking_page: Total <select> elements on page: 7
+2026-03-10 10:28:30 [INFO] pages.booking_page: Country-code select found: 253 options, current='AF +93'
+2026-03-10 10:28:30 [INFO] pages.booking_page: Country code selected: 'IN +91'
+2026-03-10 10:28:30 [INFO] pages.booking_page: Filling phone: 9867543897
+2026-03-10 10:28:31 [INFO] pages.booking_page: Filled input: '9867543897'
+2026-03-10 10:28:31 [INFO] pages.base_page: Screenshot saved: screenshots\booking_guest_after_fill_20260310_102831.png
+2026-03-10 10:28:31 [INFO] pages.booking_page: Guest details filled
+2026-03-10 10:28:31 [INFO] pages.booking_page: === Filling passenger details ===
+2026-03-10 10:28:31 [INFO] pages.base_page: Screenshot saved: screenshots\booking_passenger_before_fill_20260310_102831.png
+2026-03-10 10:28:31 [INFO] pages.booking_page: Filling nationality: India
+2026-03-10 10:28:51 [INFO] pages.booking_page: Selected (exact): 'India'
+2026-03-10 10:28:51 [INFO] pages.booking_page: Filling DOB: day='09' month='09 Sep' year='2004'
+2026-03-10 10:28:51 [INFO] pages.booking_page: DOB normalised: day='9' month_num='9' month_name='Sep' year='2004'
+2026-03-10 10:29:02 [INFO] pages.booking_page: DOB day selected: '09'
+2026-03-10 10:29:03 [INFO] pages.booking_page: DOB year selected: '2004'
+2026-03-10 10:29:03 [INFO] pages.booking_page: DOB fill result: day=True month=False year=True
+2026-03-10 10:29:03 [INFO] pages.booking_page: Filling passport: 'A8646348'
+2026-03-10 10:29:04 [INFO] pages.booking_page: Passport found via label XPath
+2026-03-10 10:29:04 [INFO] pages.booking_page: Passport target: placeholder='6 - 15 Numbers' name=''
+2026-03-10 10:29:05 [INFO] pages.booking_page: Passport after ActionChains attempt 1: 'A8646348'
+2026-03-10 10:29:05 [INFO] pages.booking_page: Passport confirmed on attempt 1
+2026-03-10 10:29:05 [INFO] pages.base_page: Screenshot saved: screenshots\booking_passenger_after_fill_20260310_102905.png
+2026-03-10 10:29:05 [INFO] pages.booking_page: Passenger details filled
+2026-03-10 10:29:05 [INFO] pages.booking_page: Selecting Credit Card payment method
+2026-03-10 10:29:06 [INFO] pages.booking_page: Clicked credit label directly: 'Credit Card'
+2026-03-10 10:29:06 [INFO] pages.booking_page: Accepting Terms & Conditions
+2026-03-10 10:29:08 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:29:13 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:29:18 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:29:19 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:29:20 [INFO] tests.test_end_to_end_booking: Booking total: USD 31,472.20
+2026-03-10 10:29:20 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step3b_filled_20260310_102920.png
+2026-03-10 10:29:20 [INFO] pages.booking_page: Clicking Confirm Booking button
+2026-03-10 10:29:20 [INFO] pages.booking_page: Confirm button: tag=button text='lock
+Confirm Booking'
+2026-03-10 10:29:20 [INFO] pages.booking_page: Confirm Booking clicked
+2026-03-10 10:29:20 [INFO] tests.test_end_to_end_booking: Step 3: Booking confirmed
+2026-03-10 10:29:20 [INFO] pages.payment_page: Waiting for invoice page to load...
+2026-03-10 10:29:27 [INFO] pages.payment_page: Invoice page detected: https://phptravels.net/invoice/flights/35064812
+2026-03-10 10:29:28 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step4_invoice_20260310_102927.png
+2026-03-10 10:29:28 [INFO] tests.test_end_to_end_booking: Invoice: Invoice #35064812
+2026-03-10 10:29:28 [INFO] pages.payment_page: Clicking Make Payment button
+2026-03-10 10:29:28 [INFO] pages.payment_page: Make Payment clicked: 'progress_activity
+Processing...'
+2026-03-10 10:29:28 [INFO] tests.test_end_to_end_booking: Step 4: Make Payment clicked
+2026-03-10 10:29:30 [INFO] pages.payment_page: Clicking Proceed to Payment (if present)
+2026-03-10 10:29:31 [INFO] pages.payment_page: Proceed to Payment clicked
+2026-03-10 10:29:31 [INFO] tests.test_end_to_end_booking: Step 5: Proceed handled
+2026-03-10 10:29:31 [INFO] pages.payment_page: Waiting for Stripe checkout page...
+2026-03-10 10:29:36 [INFO] pages.payment_page: Stripe page URL: https://checkout.stripe.com/c/pay/cs_test_a1QpDvLTnbvqBAIv7KzAjGbOzDo4nY3HnfDRmFTV8P2svEGjYZAFqCo1NG#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWj1ERj1pPDxKYHZgMHBGPURGbUBINGhjQTU1NldpTEpBY3YnKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl
+2026-03-10 10:29:37 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step6_stripe_20260310_102936.png
+2026-03-10 10:29:37 [INFO] pages.payment_page: === Filling Stripe card details ===
+2026-03-10 10:29:38 [INFO] pages.base_page: Screenshot saved: screenshots\stripe_before_fill_20260310_102938.png
+2026-03-10 10:29:38 [INFO] pages.payment_page: Total inputs on Stripe page: 5
+2026-03-10 10:29:38 [INFO] pages.payment_page:   input[0] name=cardNumber placeholder=1234 1234 1234 1234 autocomplete=cc-number visible=True
+2026-03-10 10:29:38 [INFO] pages.payment_page:   input[1] name=cardExpiry placeholder=MM / YY autocomplete=cc-exp visible=True
+2026-03-10 10:29:38 [INFO] pages.payment_page:   input[2] name=cardCvc placeholder=CVC autocomplete=cc-csc visible=True
+2026-03-10 10:29:38 [INFO] pages.payment_page:   input[3] name=billingName placeholder=Full name on card autocomplete=cc-name visible=True
+2026-03-10 10:29:38 [INFO] pages.payment_page:   input[4] name=enableStripePass placeholder= autocomplete= visible=False
+2026-03-10 10:29:38 [INFO] pages.payment_page: Stripe field found: name='cardNumber' placeholder='1234 1234 1234 1234' autocomplete='cc-number'
+2026-03-10 10:29:39 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '4242 4242 4242 4242'
+2026-03-10 10:29:39 [INFO] pages.payment_page: Card number after fill: '4242 4242 4242 4242'
+2026-03-10 10:29:40 [INFO] pages.payment_page: Stripe field found: name='cardExpiry' placeholder='MM / YY' autocomplete='cc-exp'
+2026-03-10 10:29:40 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '12 / 28'
+2026-03-10 10:29:41 [INFO] pages.payment_page: Expiry after fill: '12 / 28'
+2026-03-10 10:29:41 [INFO] pages.payment_page: Stripe field found: name='cardCvc' placeholder='CVC' autocomplete='cc-csc'
+2026-03-10 10:29:43 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '123'
+2026-03-10 10:29:43 [INFO] pages.payment_page: CVC after fill: '123'
+2026-03-10 10:29:43 [INFO] pages.payment_page: Stripe field found: name='billingName' placeholder='Full name on card' autocomplete='cc-name'
+2026-03-10 10:29:45 [INFO] pages.payment_page: _stripe_fill OK (send_keys): 'John Doe'
+2026-03-10 10:29:45 [INFO] pages.payment_page: Name after fill: 'John Doe'
+2026-03-10 10:29:45 [INFO] pages.base_page: Screenshot saved: screenshots\stripe_after_fill_20260310_102945.png
+2026-03-10 10:29:45 [INFO] pages.payment_page: Stripe card details fill complete
+2026-03-10 10:29:45 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step6b_filled_20260310_102945.png
+2026-03-10 10:29:45 [INFO] pages.payment_page: Clicking Pay button on Stripe
+2026-03-10 10:29:46 [INFO] pages.payment_page: Pay button: 'Pay'
+2026-03-10 10:29:46 [INFO] pages.payment_page: Pay button clicked
+2026-03-10 10:29:46 [INFO] tests.test_end_to_end_booking: Step 6: Pay clicked
+2026-03-10 10:29:46 [INFO] pages.payment_page: Waiting for payment success / redirect back to site...
+2026-03-10 10:29:55 [INFO] pages.payment_page: Post-payment URL: https://phptravels.net/invoice/flights/35064812
+2026-03-10 10:29:56 [INFO] pages.base_page: Screenshot saved: screenshots\post_payment_state_20260310_102955.png
+2026-03-10 10:29:56 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step7_success_20260310_102956.png
+2026-03-10 10:29:56 [INFO] tests.test_end_to_end_booking: Confirmed: True
+2026-03-10 10:29:56 [INFO] tests.test_end_to_end_booking: Paid: True
+2026-03-10 10:29:56 [INFO] pages.payment_page: Clicking Download Invoice
+2026-03-10 10:30:21 [INFO] pages.payment_page: Download Invoice clicked: 'download
+Download Invoice'
+2026-03-10 10:30:22 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step8_download_20260310_103022.png
+2026-03-10 10:30:22 [INFO] pages.payment_page: Clicking Back to Homepage
+2026-03-10 10:30:23 [INFO] pages.payment_page: Back to Homepage clicked via JS innerText scan
+2026-03-10 10:30:34 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step9_done_20260310_103024.png
+2026-03-10 10:30:34 [INFO] tests.test_end_to_end_booking: TC-11 PASSED
+2026-03-10 10:30:34 [INFO] conftest: Tearing down WebDriver for: test_oneway_end_to_end_booking
+2026-03-10 10:30:42 [INFO] conftest: Setting up Chrome WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-10 10:30:44 [INFO] tests.test_end_to_end_booking: TC-12: Round-trip end-to-end booking
+2026-03-10 10:30:44 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 10:30:49 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 10:30:49 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 10:30:50 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 10:30:55 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 10:30:55 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 10:30:55 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 10:30:55 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-10 10:30:55 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-10 10:31:15 [INFO] pages.flight_search_page: Flight type set: Round Trip (custom dropdown)
+2026-03-10 10:31:16 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 10:31:16 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 10:31:22 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 10:31:27 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 10:31:27 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 10:31:27 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 10:31:27 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 10:31:33 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 10:31:38 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 10:31:39 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 10:31:39 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 10:31:40 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 10:31:41 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-10 10:31:41 [INFO] pages.flight_search_page: Date set via send_keys: '24-03-2026'
+2026-03-10 10:31:42 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 10:31:53 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 10:31:53 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260310_103153.png
+2026-03-10 10:31:53 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 10:32:05 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 10:32:05 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/roundtrip/economy/17-03-2026/24-03-2026/1/0/0
+2026-03-10 10:32:05 [INFO] tests.test_end_to_end_booking: Step 1: Round-trip search done
+2026-03-10 10:32:05 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 10:32:13 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 10:32:14 [INFO] pages.flight_results_page: are_results_displayed: 21 book button(s) found
+2026-03-10 10:32:14 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step2_results_20260310_103214.png
+2026-03-10 10:32:14 [INFO] pages.flight_results_page: Clicking Book Now on first available flight
+2026-03-10 10:32:17 [INFO] pages.flight_results_page: Strategy 1 (button 'Book Now' with btn class, no href): 21 found
+2026-03-10 10:32:17 [INFO] pages.flight_results_page: Clicked Book Now: tag=button, text='flight_takeoff
+Book Now'
+2026-03-10 10:32:20 [INFO] pages.flight_results_page: Book Now clicked OK, URL: https://phptravels.net/flights/booking/ba3f622b4a4cd9fb
+2026-03-10 10:32:20 [INFO] tests.test_end_to_end_booking: Step 2: Book Now clicked
+2026-03-10 10:32:20 [INFO] pages.booking_page: Waiting for booking page to load...
+2026-03-10 10:32:21 [INFO] pages.booking_page: Booking page URL: https://phptravels.net/flights/booking/ba3f622b4a4cd9fb
+2026-03-10 10:32:21 [INFO] pages.booking_page: Booking page title: Complete Booking - PHPTRAVELS
+2026-03-10 10:32:21 [INFO] pages.booking_page: Booking form inputs detected
+2026-03-10 10:32:21 [INFO] pages.booking_page: Total form elements: 32
+2026-03-10 10:32:21 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_guest placeholder= visible=True
+2026-03-10 10:32:21 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_login placeholder= visible=True
+2026-03-10 10:32:21 [INFO] pages.booking_page:   input type=email name= id=quick_login_email placeholder=Enter Email visible=False
+2026-03-10 10:32:21 [INFO] pages.booking_page:   input type=password name= id=quick_login_password placeholder=Enter password visible=False
+2026-03-10 10:32:21 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter First Name visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter Last Name visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=email name= id= placeholder=Enter Email visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=tel name= id= placeholder=Enter Phone Number visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=checkbox name= id=booking_for_someone_else placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=hidden name=booking_type id= placeholder= visible=False
+2026-03-10 10:32:22 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:22 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:23 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=text name= id= placeholder=6 - 15 Numbers visible=True
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:32:23 [INFO] pages.booking_page:   input type=radio name=payment id=payment_6 placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=radio name=payment id=payment_3 placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=radio name=payment id=payment_7 placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=radio name=payment id=payment_5 placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=checkbox name= id=terms_accepted placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=hidden name=csrf_token id= placeholder= visible=False
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter promo code visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page: Total form elements: 32
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_guest placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_login placeholder= visible=True
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=email name= id=quick_login_email placeholder=Enter Email visible=False
+2026-03-10 10:32:24 [INFO] pages.booking_page:   input type=password name= id=quick_login_password placeholder=Enter password visible=False
+2026-03-10 10:32:24 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter First Name visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter Last Name visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=email name= id= placeholder=Enter Email visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=tel name= id= placeholder=Enter Phone Number visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=checkbox name= id=booking_for_someone_else placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=hidden name=booking_type id= placeholder= visible=False
+2026-03-10 10:32:25 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:25 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:26 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=text name= id= placeholder=6 - 15 Numbers visible=True
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=payment id=payment_6 placeholder= visible=True
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=payment id=payment_3 placeholder= visible=True
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=payment id=payment_7 placeholder= visible=True
+2026-03-10 10:32:26 [INFO] pages.booking_page:   input type=radio name=payment id=payment_5 placeholder= visible=True
+2026-03-10 10:32:27 [INFO] pages.booking_page:   input type=checkbox name= id=terms_accepted placeholder= visible=True
+2026-03-10 10:32:27 [INFO] pages.booking_page:   input type=hidden name=csrf_token id= placeholder= visible=False
+2026-03-10 10:32:27 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter promo code visible=True
+2026-03-10 10:32:27 [INFO] pages.base_page: Screenshot saved: screenshots\booking_form_elements_20260310_103227.png
+2026-03-10 10:32:27 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step3a_form_20260310_103227.png
+2026-03-10 10:32:27 [INFO] pages.booking_page: === Filling guest details ===
+2026-03-10 10:32:27 [INFO] pages.booking_page: Selecting Guest Booking option
+2026-03-10 10:32:27 [INFO] pages.base_page: Screenshot saved: screenshots\booking_guest_before_fill_20260310_103227.png
+2026-03-10 10:32:27 [INFO] pages.booking_page: Guest radio selected
+2026-03-10 10:32:27 [INFO] pages.booking_page: Filling title: Mr
+2026-03-10 10:32:28 [INFO] pages.booking_page: Selected (exact): 'Mr'
+2026-03-10 10:32:28 [INFO] pages.booking_page: Title set to: Mr
+2026-03-10 10:32:28 [INFO] pages.booking_page: Filling first name: Jane
+2026-03-10 10:32:28 [INFO] pages.booking_page: Filled input: 'Jane'
+2026-03-10 10:32:28 [INFO] pages.booking_page: Filling last name: Smith
+2026-03-10 10:32:28 [INFO] pages.booking_page: Filled input: 'Smith'
+2026-03-10 10:32:28 [INFO] pages.booking_page: Filling email: jane.smith@email.com
+2026-03-10 10:32:35 [INFO] pages.booking_page: Filled input: 'jane.smith@email.com'
+2026-03-10 10:32:35 [INFO] pages.booking_page: Filling country code: 'IN +91'
+2026-03-10 10:32:35 [INFO] pages.booking_page: Total <select> elements on page: 7
+2026-03-10 10:32:41 [INFO] pages.booking_page: Country-code select found: 253 options, current='AF +93'
+2026-03-10 10:32:41 [INFO] pages.booking_page: Country code selected: 'IN +91'
+2026-03-10 10:32:41 [INFO] pages.booking_page: Filling phone: 9876543210
+2026-03-10 10:32:41 [INFO] pages.booking_page: Filled input: '9876543210'
+2026-03-10 10:32:41 [INFO] pages.base_page: Screenshot saved: screenshots\booking_guest_after_fill_20260310_103241.png
+2026-03-10 10:32:41 [INFO] pages.booking_page: Guest details filled
+2026-03-10 10:32:41 [INFO] pages.booking_page: === Filling passenger details ===
+2026-03-10 10:32:42 [INFO] pages.base_page: Screenshot saved: screenshots\booking_passenger_before_fill_20260310_103241.png
+2026-03-10 10:32:42 [INFO] pages.booking_page: Filling nationality: India
+2026-03-10 10:33:02 [INFO] pages.booking_page: Selected (exact): 'India'
+2026-03-10 10:33:02 [INFO] pages.booking_page: Filling DOB: day='15' month='06 Jun' year='1990'
+2026-03-10 10:33:02 [INFO] pages.booking_page: DOB normalised: day='15' month_num='6' month_name='Jun' year='1990'
+2026-03-10 10:33:13 [INFO] pages.booking_page: DOB day selected: '15'
+2026-03-10 10:33:14 [INFO] pages.booking_page: DOB year selected: '1990'
+2026-03-10 10:33:14 [INFO] pages.booking_page: DOB fill result: day=True month=False year=True
+2026-03-10 10:33:14 [INFO] pages.booking_page: Filling passport: 'B1234567'
+2026-03-10 10:33:15 [INFO] pages.booking_page: Passport found via label XPath
+2026-03-10 10:33:15 [INFO] pages.booking_page: Passport target: placeholder='6 - 15 Numbers' name=''
+2026-03-10 10:33:16 [INFO] pages.booking_page: Passport after ActionChains attempt 1: 'B1234567'
+2026-03-10 10:33:16 [INFO] pages.booking_page: Passport confirmed on attempt 1
+2026-03-10 10:33:16 [INFO] pages.base_page: Screenshot saved: screenshots\booking_passenger_after_fill_20260310_103316.png
+2026-03-10 10:33:16 [INFO] pages.booking_page: Passenger details filled
+2026-03-10 10:33:16 [INFO] pages.booking_page: Selecting Credit Card payment method
+2026-03-10 10:33:17 [INFO] pages.booking_page: Clicked credit label directly: 'Credit Card'
+2026-03-10 10:33:17 [INFO] pages.booking_page: Accepting Terms & Conditions
+2026-03-10 10:33:18 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:33:23 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:33:28 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:33:31 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 10:33:32 [INFO] tests.test_end_to_end_booking: Booking total: USD 62,425.28
+2026-03-10 10:33:32 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step3b_filled_20260310_103332.png
+2026-03-10 10:33:32 [INFO] pages.booking_page: Clicking Confirm Booking button
+2026-03-10 10:33:32 [INFO] pages.booking_page: Confirm button: tag=button text='lock
+Confirm Booking'
+2026-03-10 10:33:34 [INFO] pages.booking_page: Confirm Booking clicked
+2026-03-10 10:33:34 [INFO] tests.test_end_to_end_booking: Step 3: Booking confirmed
+2026-03-10 10:33:34 [INFO] pages.payment_page: Waiting for invoice page to load...
+2026-03-10 10:33:40 [INFO] pages.payment_page: Invoice page detected: https://phptravels.net/invoice/flights/53689695
+2026-03-10 10:33:40 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step4_invoice_20260310_103340.png
+2026-03-10 10:33:40 [INFO] tests.test_end_to_end_booking: Invoice: Invoice #53689695
+2026-03-10 10:33:40 [INFO] pages.payment_page: Clicking Make Payment button
+2026-03-10 10:33:41 [INFO] pages.payment_page: Make Payment clicked: 'progress_activity
+Processing...'
+2026-03-10 10:33:41 [INFO] tests.test_end_to_end_booking: Step 4: Make Payment clicked
+2026-03-10 10:33:43 [INFO] pages.payment_page: Clicking Proceed to Payment (if present)
+2026-03-10 10:33:44 [INFO] pages.payment_page: Proceed to Payment clicked
+2026-03-10 10:33:44 [INFO] tests.test_end_to_end_booking: Step 5: Proceed handled
+2026-03-10 10:33:44 [INFO] pages.payment_page: Waiting for Stripe checkout page...
+2026-03-10 10:33:49 [INFO] pages.payment_page: Stripe page URL: https://checkout.stripe.com/c/pay/cs_test_a1MjmtGtndMcx8eruaYop2TZSXL4qXHTTx3UAebkdsenErWoWopXxMWwfP#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWj1ERj1pPDxKYHZgMHBGPURGbUBINGhjQTU1NldpTEpBY3YnKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl
+2026-03-10 10:33:50 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step6_stripe_20260310_103349.png
+2026-03-10 10:33:50 [INFO] pages.payment_page: === Filling Stripe card details ===
+2026-03-10 10:33:51 [INFO] pages.base_page: Screenshot saved: screenshots\stripe_before_fill_20260310_103351.png
+2026-03-10 10:33:51 [INFO] pages.payment_page: Total inputs on Stripe page: 5
+2026-03-10 10:33:51 [INFO] pages.payment_page:   input[0] name=cardNumber placeholder=1234 1234 1234 1234 autocomplete=cc-number visible=True
+2026-03-10 10:33:51 [INFO] pages.payment_page:   input[1] name=cardExpiry placeholder=MM / YY autocomplete=cc-exp visible=True
+2026-03-10 10:33:51 [INFO] pages.payment_page:   input[2] name=cardCvc placeholder=CVC autocomplete=cc-csc visible=True
+2026-03-10 10:33:51 [INFO] pages.payment_page:   input[3] name=billingName placeholder=Full name on card autocomplete=cc-name visible=True
+2026-03-10 10:33:51 [INFO] pages.payment_page:   input[4] name=enableStripePass placeholder= autocomplete= visible=False
+2026-03-10 10:33:51 [INFO] pages.payment_page: Stripe field found: name='cardNumber' placeholder='1234 1234 1234 1234' autocomplete='cc-number'
+2026-03-10 10:33:52 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '4242 4242 4242 4242'
+2026-03-10 10:33:52 [INFO] pages.payment_page: Card number after fill: '4242 4242 4242 4242'
+2026-03-10 10:33:53 [INFO] pages.payment_page: Stripe field found: name='cardExpiry' placeholder='MM / YY' autocomplete='cc-exp'
+2026-03-10 10:33:53 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '12 / 28'
+2026-03-10 10:33:53 [INFO] pages.payment_page: Expiry after fill: '12 / 28'
+2026-03-10 10:33:54 [INFO] pages.payment_page: Stripe field found: name='cardCvc' placeholder='CVC' autocomplete='cc-csc'
+2026-03-10 10:33:54 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '123'
+2026-03-10 10:33:54 [INFO] pages.payment_page: CVC after fill: '123'
+2026-03-10 10:33:55 [INFO] pages.payment_page: Stripe field found: name='billingName' placeholder='Full name on card' autocomplete='cc-name'
+2026-03-10 10:33:55 [INFO] pages.payment_page: _stripe_fill OK (send_keys): 'Jane Smith'
+2026-03-10 10:33:55 [INFO] pages.payment_page: Name after fill: 'Jane Smith'
+2026-03-10 10:33:56 [INFO] pages.base_page: Screenshot saved: screenshots\stripe_after_fill_20260310_103356.png
+2026-03-10 10:33:56 [INFO] pages.payment_page: Stripe card details fill complete
+2026-03-10 10:33:56 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step6b_filled_20260310_103356.png
+2026-03-10 10:33:56 [INFO] pages.payment_page: Clicking Pay button on Stripe
+2026-03-10 10:33:56 [INFO] pages.payment_page: Pay button: 'Pay'
+2026-03-10 10:33:56 [INFO] pages.payment_page: Pay button clicked
+2026-03-10 10:33:56 [INFO] tests.test_end_to_end_booking: Step 6: Pay clicked
+2026-03-10 10:33:56 [INFO] pages.payment_page: Waiting for payment success / redirect back to site...
+2026-03-10 10:34:05 [INFO] pages.payment_page: Post-payment URL: https://phptravels.net/invoice/flights/53689695
+2026-03-10 10:34:05 [INFO] pages.base_page: Screenshot saved: screenshots\post_payment_state_20260310_103405.png
+2026-03-10 10:34:06 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step7_success_20260310_103405.png
+2026-03-10 10:34:06 [INFO] tests.test_end_to_end_booking: Confirmed: True
+2026-03-10 10:34:06 [INFO] tests.test_end_to_end_booking: Paid: True
+2026-03-10 10:34:06 [INFO] pages.payment_page: Clicking Download Invoice
+2026-03-10 10:34:30 [INFO] pages.payment_page: Download Invoice clicked: 'download
+Download Invoice'
+2026-03-10 10:34:31 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step8_download_20260310_103431.png
+2026-03-10 10:34:31 [INFO] pages.payment_page: Clicking Back to Homepage
+2026-03-10 10:34:32 [INFO] pages.payment_page: Back to Homepage clicked via JS innerText scan
+2026-03-10 10:34:49 [INFO] pages.base_page: Screenshot saved: screenshots\tc12_step9_done_20260310_103433.png
+2026-03-10 10:34:49 [INFO] tests.test_end_to_end_booking: TC-12 PASSED
+2026-03-10 10:34:49 [INFO] conftest: Tearing down WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-10 13:03:24 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-10 13:03:24 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-10 13:03:24 [INFO] conftest: Setting up Chrome WebDriver for: test_oneway_end_to_end_booking
+2026-03-10 13:03:26 [INFO] conftest: ChromeDriver resolved: C:\Users\Sujan Kumar Reddy\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe
+2026-03-10 13:03:28 [INFO] tests.test_end_to_end_booking: TC-11: One-way end-to-end booking
+2026-03-10 13:03:28 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-10 13:03:37 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-10 13:03:37 [INFO] pages.flight_search_page: Page URL:   https://phptravels.net/flights
+2026-03-10 13:03:37 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-10 13:03:42 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-10 13:03:42 [INFO] pages.flight_search_page: Search button confirmed present
+2026-03-10 13:03:42 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-10 13:03:42 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-10 13:03:42 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-10 13:04:03 [INFO] pages.flight_search_page: Flight type set: One Way (custom dropdown)
+2026-03-10 13:04:03 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-10 13:04:03 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-10 13:04:09 [WARNING] pages.flight_search_page: Dropdown did not appear for 'BOM' within 4s
+2026-03-10 13:04:14 [INFO] pages.flight_search_page: Dropdown items visible for 'BOM': 0
+2026-03-10 13:04:14 [WARNING] pages.flight_search_page: No dropdown items found for 'BOM' — sent Enter
+2026-03-10 13:04:14 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-10 13:04:14 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-10 13:04:20 [WARNING] pages.flight_search_page: Dropdown did not appear for 'DEL' within 4s
+2026-03-10 13:04:25 [INFO] pages.flight_search_page: Dropdown items visible for 'DEL': 0
+2026-03-10 13:04:26 [WARNING] pages.flight_search_page: No dropdown items found for 'DEL' — sent Enter
+2026-03-10 13:04:26 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-10 13:04:27 [INFO] pages.flight_search_page: Date set via send_keys: '17-03-2026'
+2026-03-10 13:04:27 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-10 13:04:38 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-10 13:04:38 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260310_130438.png
+2026-03-10 13:04:38 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-10 13:04:49 [INFO] pages.flight_search_page: Search clicked via: //button[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SEARCH')]
+2026-03-10 13:04:50 [INFO] pages.flight_search_page: Navigated to: https://phptravels.net/flights/bom/del/oneway/economy/17-03-2026/1/0/0
+2026-03-10 13:04:50 [INFO] tests.test_end_to_end_booking: Step 1: Search done
+2026-03-10 13:04:50 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-10 13:04:58 [INFO] pages.flight_results_page: Flight results detected
+2026-03-10 13:05:00 [WARNING] pages.flight_results_page: are_results_displayed attempt 1 stale/error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xc989cd
+	0xc9af62
+	0xd1c471
+	0xcfea3c
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x758a5d49
+	0x774ad81b
+	0x774ad7a1
+
+2026-03-10 13:05:03 [INFO] pages.flight_results_page: are_results_displayed: 50 book button(s) found
+2026-03-10 13:05:03 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step2_results_20260310_130503.png
+2026-03-10 13:05:03 [INFO] pages.flight_results_page: Clicking Book Now on first available flight
+2026-03-10 13:05:07 [INFO] pages.flight_results_page: Strategy 1 (button 'Book Now' with btn class, no href): 50 found
+2026-03-10 13:05:07 [INFO] pages.flight_results_page: Clicked Book Now: tag=button, text='flight_takeoff
+Book Now'
+2026-03-10 13:05:09 [INFO] pages.flight_results_page: Book Now clicked OK, URL: https://phptravels.net/flights/booking/7a93b10e32f1f5fd
+2026-03-10 13:05:09 [INFO] tests.test_end_to_end_booking: Step 2: Book Now clicked
+2026-03-10 13:05:09 [INFO] pages.booking_page: Waiting for booking page to load...
+2026-03-10 13:05:10 [INFO] pages.booking_page: Booking page URL: https://phptravels.net/flights/booking/7a93b10e32f1f5fd
+2026-03-10 13:05:10 [INFO] pages.booking_page: Booking page title: Complete Booking - PHPTRAVELS
+2026-03-10 13:05:10 [INFO] pages.booking_page: Booking form inputs detected
+2026-03-10 13:05:10 [INFO] pages.booking_page: Total form elements: 32
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_guest placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_login placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=email name= id=quick_login_email placeholder=Enter Email visible=False
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=password name= id=quick_login_password placeholder=Enter password visible=False
+2026-03-10 13:05:11 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter First Name visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter Last Name visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=email name= id= placeholder=Enter Email visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=tel name= id= placeholder=Enter Phone Number visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=checkbox name= id=booking_for_someone_else placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=hidden name=booking_type id= placeholder= visible=False
+2026-03-10 13:05:11 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 13:05:11 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=text name= id= placeholder=6 - 15 Numbers visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=payment id=payment_6 placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=payment id=payment_3 placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=payment id=payment_7 placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=radio name=payment id=payment_5 placeholder= visible=True
+2026-03-10 13:05:12 [INFO] pages.booking_page:   input type=checkbox name= id=terms_accepted placeholder= visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=hidden name=csrf_token id= placeholder= visible=False
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter promo code visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page: Total form elements: 32
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_guest placeholder= visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=radio name=booking_type id=booking_login placeholder= visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=email name= id=quick_login_email placeholder=Enter Email visible=False
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=password name= id=quick_login_password placeholder=Enter password visible=False
+2026-03-10 13:05:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter First Name visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter Last Name visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=email name= id= placeholder=Enter Email visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=tel name= id= placeholder=Enter Phone Number visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=checkbox name= id=booking_for_someone_else placeholder= visible=True
+2026-03-10 13:05:13 [INFO] pages.booking_page:   input type=hidden name=booking_type id= placeholder= visible=False
+2026-03-10 13:05:13 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=text name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   select type=select-one name= id= placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=text name= id= placeholder=6 - 15 Numbers visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=checkbox name= id= placeholder= visible=False
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=radio name=fareType id= placeholder= visible=False
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=radio name=payment id=payment_6 placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=radio name=payment id=payment_3 placeholder= visible=True
+2026-03-10 13:05:14 [INFO] pages.booking_page:   input type=radio name=payment id=payment_7 placeholder= visible=True
+2026-03-10 13:05:15 [INFO] pages.booking_page:   input type=radio name=payment id=payment_5 placeholder= visible=True
+2026-03-10 13:05:15 [INFO] pages.booking_page:   input type=checkbox name= id=terms_accepted placeholder= visible=True
+2026-03-10 13:05:15 [INFO] pages.booking_page:   input type=hidden name=csrf_token id= placeholder= visible=False
+2026-03-10 13:05:15 [INFO] pages.booking_page:   input type=text name= id= placeholder=Enter promo code visible=True
+2026-03-10 13:05:15 [INFO] pages.base_page: Screenshot saved: screenshots\booking_form_elements_20260310_130515.png
+2026-03-10 13:05:15 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step3a_form_20260310_130515.png
+2026-03-10 13:05:15 [INFO] pages.booking_page: === Filling guest details ===
+2026-03-10 13:05:15 [INFO] pages.booking_page: Selecting Guest Booking option
+2026-03-10 13:05:15 [INFO] pages.base_page: Screenshot saved: screenshots\booking_guest_before_fill_20260310_130515.png
+2026-03-10 13:05:15 [INFO] pages.booking_page: Guest radio selected
+2026-03-10 13:05:15 [INFO] pages.booking_page: Filling title: Mr
+2026-03-10 13:05:16 [INFO] pages.booking_page: Selected (exact): 'Mr'
+2026-03-10 13:05:16 [INFO] pages.booking_page: Title set to: Mr
+2026-03-10 13:05:16 [INFO] pages.booking_page: Filling first name: John
+2026-03-10 13:05:16 [INFO] pages.booking_page: Filled input: 'John'
+2026-03-10 13:05:16 [INFO] pages.booking_page: Filling last name: Doe
+2026-03-10 13:05:17 [INFO] pages.booking_page: Filled input: 'Doe'
+2026-03-10 13:05:17 [INFO] pages.booking_page: Filling email: ks7964@email.com
+2026-03-10 13:05:17 [INFO] pages.booking_page: Filled input: 'ks7964@email.com'
+2026-03-10 13:05:17 [INFO] pages.booking_page: Filling country code: 'IN +91'
+2026-03-10 13:05:17 [INFO] pages.booking_page: Total <select> elements on page: 7
+2026-03-10 13:05:21 [INFO] pages.booking_page: Country-code select found: 253 options, current='AF +93'
+2026-03-10 13:05:21 [INFO] pages.booking_page: Country code selected: 'IN +91'
+2026-03-10 13:05:21 [INFO] pages.booking_page: Filling phone: 9867543897
+2026-03-10 13:05:21 [INFO] pages.booking_page: Filled input: '9867543897'
+2026-03-10 13:05:22 [INFO] pages.base_page: Screenshot saved: screenshots\booking_guest_after_fill_20260310_130521.png
+2026-03-10 13:05:22 [INFO] pages.booking_page: Guest details filled
+2026-03-10 13:05:22 [INFO] pages.booking_page: === Filling passenger details ===
+2026-03-10 13:05:22 [INFO] pages.base_page: Screenshot saved: screenshots\booking_passenger_before_fill_20260310_130522.png
+2026-03-10 13:05:22 [INFO] pages.booking_page: Filling nationality: India
+2026-03-10 13:05:32 [INFO] pages.booking_page: Selected (exact): 'India'
+2026-03-10 13:05:32 [INFO] pages.booking_page: Filling DOB: day='09' month='09 Sep' year='2004'
+2026-03-10 13:05:32 [INFO] pages.booking_page: DOB normalised: day='9' month_num='9' month_name='Sep' year='2004'
+2026-03-10 13:05:42 [INFO] pages.booking_page: DOB day selected: '09'
+2026-03-10 13:05:43 [INFO] pages.booking_page: DOB year selected: '2004'
+2026-03-10 13:05:43 [INFO] pages.booking_page: DOB fill result: day=True month=False year=True
+2026-03-10 13:05:43 [INFO] pages.booking_page: Filling passport: 'A8646348'
+2026-03-10 13:05:44 [INFO] pages.booking_page: Passport found via label XPath
+2026-03-10 13:05:44 [INFO] pages.booking_page: Passport target: placeholder='6 - 15 Numbers' name=''
+2026-03-10 13:05:45 [INFO] pages.booking_page: Passport after ActionChains attempt 1: 'A8646348'
+2026-03-10 13:05:45 [INFO] pages.booking_page: Passport confirmed on attempt 1
+2026-03-10 13:05:46 [INFO] pages.base_page: Screenshot saved: screenshots\booking_passenger_after_fill_20260310_130545.png
+2026-03-10 13:05:46 [INFO] pages.booking_page: Passenger details filled
+2026-03-10 13:05:46 [INFO] pages.booking_page: Selecting Credit Card payment method
+2026-03-10 13:05:46 [INFO] pages.booking_page: Clicked credit label directly: 'Credit Card'
+2026-03-10 13:05:46 [INFO] pages.booking_page: Accepting Terms & Conditions
+2026-03-10 13:05:48 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 13:05:53 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 13:05:58 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 13:05:59 [INFO] pages.booking_page: Checkbox checked via JS
+2026-03-10 13:06:00 [INFO] tests.test_end_to_end_booking: Booking total: USD 31,472.20
+2026-03-10 13:06:00 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step3b_filled_20260310_130600.png
+2026-03-10 13:06:00 [INFO] pages.booking_page: Clicking Confirm Booking button
+2026-03-10 13:06:00 [INFO] pages.booking_page: Confirm button: tag=button text='lock
+Confirm Booking'
+2026-03-10 13:06:01 [INFO] pages.booking_page: Confirm Booking clicked
+2026-03-10 13:06:01 [INFO] tests.test_end_to_end_booking: Step 3: Booking confirmed
+2026-03-10 13:06:01 [INFO] pages.payment_page: Waiting for invoice page to load...
+2026-03-10 13:06:06 [INFO] pages.payment_page: Invoice page detected: https://phptravels.net/invoice/flights/94086426
+2026-03-10 13:06:06 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step4_invoice_20260310_130606.png
+2026-03-10 13:06:06 [INFO] tests.test_end_to_end_booking: Invoice: Invoice #94086426
+2026-03-10 13:06:06 [INFO] pages.payment_page: Clicking Make Payment button
+2026-03-10 13:06:07 [INFO] pages.payment_page: Make Payment clicked: 'progress_activity
+Processing...'
+2026-03-10 13:06:07 [INFO] tests.test_end_to_end_booking: Step 4: Make Payment clicked
+2026-03-10 13:06:09 [INFO] pages.payment_page: Clicking Proceed to Payment (if present)
+2026-03-10 13:06:10 [INFO] pages.payment_page: Proceed to Payment clicked
+2026-03-10 13:06:10 [INFO] tests.test_end_to_end_booking: Step 5: Proceed handled
+2026-03-10 13:06:10 [INFO] pages.payment_page: Waiting for Stripe checkout page...
+2026-03-10 13:06:15 [INFO] pages.payment_page: Stripe page URL: https://checkout.stripe.com/c/pay/cs_test_a1Yc4nCcFwcn2qm2FK9xi9a3a8fH4O1dj8F2VRUzSzrrmwHRodwAhV3RDR#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdkdWxOYHwnPyd1blpxYHZxWj1ERj1pPDxKYHZgMHBGPURGbUBINGhjQTU1NldpTEpBY3YnKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmY2NjY2NjJyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3BgeCUl
+2026-03-10 13:06:16 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step6_stripe_20260310_130615.png
+2026-03-10 13:06:16 [INFO] pages.payment_page: === Filling Stripe card details ===
+2026-03-10 13:06:17 [INFO] pages.base_page: Screenshot saved: screenshots\stripe_before_fill_20260310_130617.png
+2026-03-10 13:06:17 [INFO] pages.payment_page: Total inputs on Stripe page: 5
+2026-03-10 13:06:17 [INFO] pages.payment_page:   input[0] name=cardNumber placeholder=1234 1234 1234 1234 autocomplete=cc-number visible=True
+2026-03-10 13:06:17 [INFO] pages.payment_page:   input[1] name=cardExpiry placeholder=MM / YY autocomplete=cc-exp visible=True
+2026-03-10 13:06:17 [INFO] pages.payment_page:   input[2] name=cardCvc placeholder=CVC autocomplete=cc-csc visible=True
+2026-03-10 13:06:17 [INFO] pages.payment_page:   input[3] name=billingName placeholder=Full name on card autocomplete=cc-name visible=True
+2026-03-10 13:06:17 [INFO] pages.payment_page:   input[4] name=enableStripePass placeholder= autocomplete= visible=False
+2026-03-10 13:06:17 [INFO] pages.payment_page: Stripe field found: name='cardNumber' placeholder='1234 1234 1234 1234' autocomplete='cc-number'
+2026-03-10 13:06:18 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '4242 4242 4242 4242'
+2026-03-10 13:06:18 [INFO] pages.payment_page: Card number after fill: '4242 4242 4242 4242'
+2026-03-10 13:06:18 [INFO] pages.payment_page: Stripe field found: name='cardExpiry' placeholder='MM / YY' autocomplete='cc-exp'
+2026-03-10 13:06:19 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '12 / 28'
+2026-03-10 13:06:19 [INFO] pages.payment_page: Expiry after fill: '12 / 28'
+2026-03-10 13:06:19 [INFO] pages.payment_page: Stripe field found: name='cardCvc' placeholder='CVC' autocomplete='cc-csc'
+2026-03-10 13:06:20 [INFO] pages.payment_page: _stripe_fill OK (send_keys): '123'
+2026-03-10 13:06:20 [INFO] pages.payment_page: CVC after fill: '123'
+2026-03-10 13:06:20 [INFO] pages.payment_page: Stripe field found: name='billingName' placeholder='Full name on card' autocomplete='cc-name'
+2026-03-10 13:06:21 [INFO] pages.payment_page: _stripe_fill OK (send_keys): 'John Doe'
+2026-03-10 13:06:21 [INFO] pages.payment_page: Name after fill: 'John Doe'
+2026-03-10 13:06:21 [INFO] pages.base_page: Screenshot saved: screenshots\stripe_after_fill_20260310_130621.png
+2026-03-10 13:06:21 [INFO] pages.payment_page: Stripe card details fill complete
+2026-03-10 13:06:21 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step6b_filled_20260310_130621.png
+2026-03-10 13:06:21 [INFO] pages.payment_page: Clicking Pay button on Stripe
+2026-03-10 13:06:22 [INFO] pages.payment_page: Pay button: 'Pay'
+2026-03-10 13:06:22 [INFO] pages.payment_page: Pay button clicked
+2026-03-10 13:06:22 [INFO] tests.test_end_to_end_booking: Step 6: Pay clicked
+2026-03-10 13:06:22 [INFO] pages.payment_page: Waiting for payment success / redirect back to site...
+2026-03-10 13:06:31 [INFO] pages.payment_page: Post-payment URL: https://phptravels.net/invoice/flights/94086426
+2026-03-10 13:06:31 [INFO] pages.base_page: Screenshot saved: screenshots\post_payment_state_20260310_130631.png
+2026-03-10 13:06:31 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step7_success_20260310_130631.png
+2026-03-10 13:06:31 [INFO] tests.test_end_to_end_booking: Confirmed: True
+2026-03-10 13:06:31 [INFO] tests.test_end_to_end_booking: Paid: True
+2026-03-10 13:06:31 [INFO] pages.payment_page: Clicking Download Invoice
+2026-03-10 13:06:55 [INFO] pages.payment_page: Download Invoice clicked: 'download
+Download Invoice'
+2026-03-10 13:06:56 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step8_download_20260310_130656.png
+2026-03-10 13:06:56 [INFO] pages.payment_page: Clicking Back to Homepage
+2026-03-10 13:06:56 [INFO] pages.payment_page: Back to Homepage clicked via JS innerText scan
+2026-03-10 13:07:05 [INFO] pages.base_page: Screenshot saved: screenshots\tc11_step9_done_20260310_130657.png
+2026-03-10 13:07:05 [INFO] tests.test_end_to_end_booking: TC-11 PASSED
+2026-03-10 13:07:05 [INFO] conftest: Tearing down WebDriver for: test_oneway_end_to_end_booking

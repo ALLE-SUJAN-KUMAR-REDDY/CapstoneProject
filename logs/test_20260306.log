@@ -1,0 +1,736 @@
+2026-03-06 22:27:34 [INFO] conftest: Setting up Chrome WebDriver for: test_flights_page_loads_successfully
+2026-03-06 22:27:41 [INFO] tests.test_end_to_end_booking: TC-01: Verify flights page loads
+2026-03-06 22:27:41 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:27:44 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:28:07 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_flights_page_loads_successfully_20260306_222807.png
+2026-03-06 22:28:07 [INFO] conftest: Tearing down WebDriver for: test_flights_page_loads_successfully
+2026-03-06 22:28:10 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-06 22:28:10 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-06 22:28:10 [INFO] conftest: Setting up Chrome WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 22:28:14 [INFO] tests.test_end_to_end_booking: TC-02: Select departure & arrival cities
+2026-03-06 22:28:14 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:28:17 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:28:40 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_select_departure_and_arrival_cities_20260306_222839.png
+2026-03-06 22:28:40 [INFO] conftest: Tearing down WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 22:28:42 [INFO] conftest: Setting up Chrome WebDriver for: test_select_future_departure_date
+2026-03-06 22:28:45 [INFO] tests.test_end_to_end_booking: TC-03: Select future departure date
+2026-03-06 22:28:45 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:28:49 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:29:12 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_select_future_departure_date_20260306_222911.png
+2026-03-06 22:29:12 [INFO] conftest: Tearing down WebDriver for: test_select_future_departure_date
+2026-03-06 22:29:14 [INFO] conftest: Setting up Chrome WebDriver for: test_select_number_of_passengers
+2026-03-06 22:29:17 [INFO] tests.test_end_to_end_booking: TC-04: Select number of passengers
+2026-03-06 22:29:17 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:29:20 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:29:55 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_select_number_of_passengers_20260306_222955.png
+2026-03-06 22:29:55 [INFO] conftest: Tearing down WebDriver for: test_select_number_of_passengers
+2026-03-06 22:29:57 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_no_past_date_selection
+2026-03-06 22:30:01 [INFO] tests.test_end_to_end_booking: TC-05: Validate no past date selection
+2026-03-06 22:30:01 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:30:03 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:30:26 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_no_past_date_selection_20260306_223025.png
+2026-03-06 22:30:26 [INFO] conftest: Tearing down WebDriver for: test_validate_no_past_date_selection
+2026-03-06 22:30:28 [INFO] conftest: Setting up Chrome WebDriver for: test_search_one_way_flight
+2026-03-06 22:30:32 [INFO] tests.test_end_to_end_booking: TC-06: Search one-way flight
+2026-03-06 22:30:32 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:30:36 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:30:58 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_search_one_way_flight_20260306_223058.png
+2026-03-06 22:30:58 [INFO] conftest: Tearing down WebDriver for: test_search_one_way_flight
+2026-03-06 22:31:01 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_search_results_displayed
+2026-03-06 22:31:04 [INFO] tests.test_end_to_end_booking: TC-07: Validate search results displayed
+2026-03-06 22:31:04 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:31:07 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:31:29 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_search_results_displayed_20260306_223129.png
+2026-03-06 22:31:29 [INFO] conftest: Tearing down WebDriver for: test_validate_search_results_displayed
+2026-03-06 22:31:32 [INFO] conftest: Setting up Chrome WebDriver for: test_verify_price_is_displayed
+2026-03-06 22:31:35 [INFO] tests.test_end_to_end_booking: TC-08: Verify price is displayed
+2026-03-06 22:31:35 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:31:38 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:32:13 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_verify_price_is_displayed_20260306_223213.png
+2026-03-06 22:32:13 [INFO] conftest: Tearing down WebDriver for: test_verify_price_is_displayed
+2026-03-06 22:32:15 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='RoundTripFlight'
+2026-03-06 22:32:15 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'RoundTripFlight'
+2026-03-06 22:32:15 [INFO] conftest: Setting up Chrome WebDriver for: test_search_round_trip_flight
+2026-03-06 22:32:19 [INFO] tests.test_end_to_end_booking: TC-09: Search round-trip flight
+2026-03-06 22:32:19 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:32:21 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:32:44 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_search_round_trip_flight_20260306_223243.png
+2026-03-06 22:32:44 [INFO] conftest: Tearing down WebDriver for: test_search_round_trip_flight
+2026-03-06 22:32:46 [INFO] conftest: Setting up Chrome WebDriver for: test_round_trip_results_have_prices
+2026-03-06 22:32:49 [INFO] tests.test_end_to_end_booking: TC-10: Verify round-trip results have prices
+2026-03-06 22:32:49 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:32:52 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:33:14 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_round_trip_results_have_prices_20260306_223314.png
+2026-03-06 22:33:14 [INFO] conftest: Tearing down WebDriver for: test_round_trip_results_have_prices
+2026-03-06 22:33:17 [INFO] conftest: Setting up Chrome WebDriver for: test_oneway_end_to_end_booking
+2026-03-06 22:33:20 [INFO] tests.test_end_to_end_booking: TC-11: One-way end-to-end booking flow
+2026-03-06 22:33:20 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:33:22 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:33:53 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_oneway_end_to_end_booking_20260306_223353.png
+2026-03-06 22:33:53 [INFO] conftest: Tearing down WebDriver for: test_oneway_end_to_end_booking
+2026-03-06 22:33:55 [INFO] conftest: Setting up Chrome WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-06 22:33:59 [INFO] tests.test_end_to_end_booking: TC-12: Round-trip end-to-end booking flow
+2026-03-06 22:33:59 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:33:59 [DEBUG] pages.base_page: Waiting for visible: (tag name, 'select')
+2026-03-06 22:34:22 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_roundtrip_end_to_end_booking_20260306_223421.png
+2026-03-06 22:34:22 [INFO] conftest: Tearing down WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-06 22:56:15 [INFO] conftest: Setting up Chrome WebDriver for: test_flights_page_loads_successfully
+2026-03-06 22:56:20 [INFO] tests.test_end_to_end_booking: TC-01: Verify flights page loads
+2026-03-06 22:56:20 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:56:23 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 22:56:46 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_flights_page_loads_successfully_20260306_225645.png
+2026-03-06 22:56:46 [INFO] conftest: Tearing down WebDriver for: test_flights_page_loads_successfully
+2026-03-06 22:56:48 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-06 22:56:48 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-06 22:56:48 [INFO] conftest: Setting up Chrome WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 22:56:52 [INFO] tests.test_end_to_end_booking: TC-02: Select departure & arrival cities
+2026-03-06 22:56:52 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:56:54 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 22:57:16 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_select_departure_and_arrival_cities_20260306_225716.png
+2026-03-06 22:57:16 [INFO] conftest: Tearing down WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 22:57:19 [INFO] conftest: Setting up Chrome WebDriver for: test_select_future_departure_date
+2026-03-06 22:57:22 [INFO] tests.test_end_to_end_booking: TC-03: Select future departure date
+2026-03-06 22:57:22 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:57:25 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 22:57:55 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_select_future_departure_date_20260306_225755.png
+2026-03-06 22:57:55 [INFO] conftest: Tearing down WebDriver for: test_select_future_departure_date
+2026-03-06 22:57:58 [INFO] conftest: Setting up Chrome WebDriver for: test_select_number_of_passengers
+2026-03-06 22:58:01 [INFO] tests.test_end_to_end_booking: TC-04: Select number of passengers
+2026-03-06 22:58:01 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:58:05 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 22:58:27 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_select_number_of_passengers_20260306_225827.png
+2026-03-06 22:58:27 [INFO] conftest: Tearing down WebDriver for: test_select_number_of_passengers
+2026-03-06 22:58:30 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_no_past_date_selection
+2026-03-06 22:58:33 [INFO] tests.test_end_to_end_booking: TC-05: Validate no past date selection
+2026-03-06 22:58:33 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:58:34 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 22:58:56 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_no_past_date_selection_20260306_225856.png
+2026-03-06 22:58:56 [INFO] conftest: Tearing down WebDriver for: test_validate_no_past_date_selection
+2026-03-06 22:58:59 [INFO] conftest: Setting up Chrome WebDriver for: test_search_one_way_flight
+2026-03-06 22:59:02 [INFO] tests.test_end_to_end_booking: TC-06: Search one-way flight
+2026-03-06 22:59:02 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:59:07 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 22:59:30 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_search_one_way_flight_20260306_225930.png
+2026-03-06 22:59:30 [INFO] conftest: Tearing down WebDriver for: test_search_one_way_flight
+2026-03-06 22:59:32 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_search_results_displayed
+2026-03-06 22:59:36 [INFO] tests.test_end_to_end_booking: TC-07: Validate search results displayed
+2026-03-06 22:59:36 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 22:59:40 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 23:00:15 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_search_results_displayed_20260306_230014.png
+2026-03-06 23:00:15 [INFO] conftest: Tearing down WebDriver for: test_validate_search_results_displayed
+2026-03-06 23:00:17 [INFO] conftest: Setting up Chrome WebDriver for: test_verify_price_is_displayed
+2026-03-06 23:00:20 [INFO] tests.test_end_to_end_booking: TC-08: Verify price is displayed
+2026-03-06 23:00:20 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:00:24 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 23:00:46 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_verify_price_is_displayed_20260306_230046.png
+2026-03-06 23:00:46 [INFO] conftest: Tearing down WebDriver for: test_verify_price_is_displayed
+2026-03-06 23:00:48 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='RoundTripFlight'
+2026-03-06 23:00:48 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'RoundTripFlight'
+2026-03-06 23:00:48 [INFO] conftest: Setting up Chrome WebDriver for: test_search_round_trip_flight
+2026-03-06 23:00:52 [INFO] tests.test_end_to_end_booking: TC-09: Search round-trip flight
+2026-03-06 23:00:52 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:00:53 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 23:01:13 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_search_round_trip_flight_20260306_230113.png
+2026-03-06 23:01:13 [INFO] conftest: Tearing down WebDriver for: test_search_round_trip_flight
+2026-03-06 23:01:15 [INFO] conftest: Setting up Chrome WebDriver for: test_round_trip_results_have_prices
+2026-03-06 23:01:19 [INFO] tests.test_end_to_end_booking: TC-10: Verify round-trip results have prices
+2026-03-06 23:01:19 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:01:22 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 23:01:44 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_round_trip_results_have_prices_20260306_230144.png
+2026-03-06 23:01:44 [INFO] conftest: Tearing down WebDriver for: test_round_trip_results_have_prices
+2026-03-06 23:01:47 [INFO] conftest: Setting up Chrome WebDriver for: test_oneway_end_to_end_booking
+2026-03-06 23:01:50 [INFO] tests.test_end_to_end_booking: TC-11: One-way end-to-end booking flow
+2026-03-06 23:01:50 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:01:51 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 23:02:28 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_oneway_end_to_end_booking_20260306_230228.png
+2026-03-06 23:02:28 [INFO] conftest: Tearing down WebDriver for: test_oneway_end_to_end_booking
+2026-03-06 23:02:30 [INFO] conftest: Setting up Chrome WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-06 23:02:34 [INFO] tests.test_end_to_end_booking: TC-12: Round-trip end-to-end booking flow
+2026-03-06 23:02:34 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:02:34 [DEBUG] pages.base_page: Waiting for visible: (xpath, '//button[contains(text(),'Search') or contains(@class,'search-btn') or contains(@class,'search')]')
+2026-03-06 23:03:00 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_roundtrip_end_to_end_booking_20260306_230259.png
+2026-03-06 23:03:00 [INFO] conftest: Tearing down WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-06 23:07:06 [INFO] conftest: Setting up Chrome WebDriver for: test_flights_page_loads_successfully
+2026-03-06 23:07:09 [INFO] tests.test_end_to_end_booking: TC-01: Verify flights page loads
+2026-03-06 23:07:09 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:07:17 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:07:17 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:07:18 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:07:23 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:07:23 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:07:23 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:07:34 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_flights_page_loads_successfully_20260306_230733.png
+2026-03-06 23:07:34 [INFO] conftest: Tearing down WebDriver for: test_flights_page_loads_successfully
+2026-03-06 23:07:36 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-06 23:07:36 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-06 23:07:36 [INFO] conftest: Setting up Chrome WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 23:07:39 [INFO] tests.test_end_to_end_booking: TC-02: Select departure & arrival cities
+2026-03-06 23:07:39 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:07:47 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:07:47 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:07:47 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:07:53 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:07:53 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:07:53 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:07:53 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:08:14 [INFO] pages.flight_search_page: Flight type set to: One Way (custom dropdown)
+2026-03-06 23:08:15 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:08:15 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:08:47 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:08:48 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:08:48 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:09:20 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:09:21 [INFO] pages.base_page: Screenshot saved: screenshots\tc02_cities_selected_20260306_230921.png
+2026-03-06 23:09:21 [INFO] tests.test_end_to_end_booking: TC-02 PASSED: Cities selected without error
+2026-03-06 23:09:21 [INFO] conftest: Tearing down WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 23:09:28 [INFO] conftest: Setting up Chrome WebDriver for: test_select_future_departure_date
+2026-03-06 23:09:31 [INFO] tests.test_end_to_end_booking: TC-03: Select future departure date
+2026-03-06 23:09:31 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:09:38 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:09:38 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:09:39 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:09:44 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:09:44 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:09:44 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:09:44 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:09:45 [INFO] pages.base_page: Screenshot saved: screenshots\tc03_future_date_set_20260306_230945.png
+2026-03-06 23:09:45 [INFO] tests.test_end_to_end_booking: TC-03 PASSED: Future departure date selected
+2026-03-06 23:09:45 [INFO] conftest: Tearing down WebDriver for: test_select_future_departure_date
+2026-03-06 23:09:51 [INFO] conftest: Setting up Chrome WebDriver for: test_select_number_of_passengers
+2026-03-06 23:09:55 [INFO] tests.test_end_to_end_booking: TC-04: Select number of passengers
+2026-03-06 23:09:55 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:10:03 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:10:03 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:10:04 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:10:09 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:10:09 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:10:09 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:10:09 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:10:24 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:10:24 [INFO] pages.base_page: Screenshot saved: screenshots\tc04_passengers_selected_20260306_231024.png
+2026-03-06 23:10:24 [INFO] tests.test_end_to_end_booking: TC-04 PASSED: Passenger count selected
+2026-03-06 23:10:24 [INFO] conftest: Tearing down WebDriver for: test_select_number_of_passengers
+2026-03-06 23:10:33 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_no_past_date_selection
+2026-03-06 23:10:36 [INFO] tests.test_end_to_end_booking: TC-05: Validate no past date selection
+2026-03-06 23:10:36 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:10:44 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:10:44 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:10:45 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:10:50 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:10:50 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:10:50 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:10:50 [INFO] pages.flight_search_page: Setting departure date: 01-01-2020
+2026-03-06 23:10:52 [INFO] tests.test_end_to_end_booking: Date field value after setting past date: '01-01-2020'
+2026-03-06 23:10:52 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_no_past_date_selection_20260306_231052.png
+2026-03-06 23:10:52 [INFO] conftest: Tearing down WebDriver for: test_validate_no_past_date_selection
+2026-03-06 23:10:55 [INFO] conftest: Setting up Chrome WebDriver for: test_search_one_way_flight
+2026-03-06 23:10:58 [INFO] tests.test_end_to_end_booking: TC-06: Search one-way flight
+2026-03-06 23:10:58 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:11:06 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:11:06 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:11:07 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:11:12 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:11:12 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:11:12 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:11:12 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:11:12 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:11:33 [INFO] pages.flight_search_page: Flight type set to: One Way (custom dropdown)
+2026-03-06 23:11:34 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:11:34 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:12:06 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:12:07 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:12:07 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:12:39 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:12:40 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:12:41 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:12:56 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:12:56 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_231256.png
+2026-03-06 23:12:56 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:13:03 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:13:11 [INFO] pages.base_page: Screenshot saved: screenshots\tc06_oneway_search_results_20260306_231311.png
+2026-03-06 23:13:16 [INFO] tests.test_end_to_end_booking: TC-06 PASSED: One-way search results displayed
+2026-03-06 23:13:16 [INFO] conftest: Tearing down WebDriver for: test_search_one_way_flight
+2026-03-06 23:13:23 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_search_results_displayed
+2026-03-06 23:13:26 [INFO] tests.test_end_to_end_booking: TC-07: Validate search results displayed
+2026-03-06 23:13:26 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:13:33 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:13:33 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:13:33 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:13:38 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:13:38 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:13:38 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:13:38 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:13:38 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:13:59 [INFO] pages.flight_search_page: Flight type set to: One Way (custom dropdown)
+2026-03-06 23:14:00 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:14:00 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:14:33 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:14:33 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:14:33 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:15:06 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:15:06 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:15:07 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:15:22 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:15:23 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_231522.png
+2026-03-06 23:15:23 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:15:29 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:15:43 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_search_results_displayed_20260306_231542.png
+2026-03-06 23:15:43 [INFO] conftest: Tearing down WebDriver for: test_validate_search_results_displayed
+2026-03-06 23:15:45 [INFO] conftest: Setting up Chrome WebDriver for: test_verify_price_is_displayed
+2026-03-06 23:15:48 [INFO] tests.test_end_to_end_booking: TC-08: Verify price is displayed
+2026-03-06 23:15:48 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:15:56 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:15:56 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:15:57 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:16:02 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:16:02 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:16:02 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:16:02 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:16:02 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:16:23 [INFO] pages.flight_search_page: Flight type set to: One Way (custom dropdown)
+2026-03-06 23:16:24 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:16:24 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:16:56 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:16:57 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:16:57 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:17:29 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:17:30 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:17:31 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:17:46 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:17:46 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_231746.png
+2026-03-06 23:17:46 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:17:53 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:18:02 [INFO] tests.test_end_to_end_booking: First displayed price: USD
+2026-03-06 23:18:02 [INFO] pages.base_page: Screenshot saved: screenshots\tc08_price_displayed_20260306_231802.png
+2026-03-06 23:18:02 [INFO] tests.test_end_to_end_booking: TC-08 PASSED: Price is displayed on results page
+2026-03-06 23:18:02 [INFO] conftest: Tearing down WebDriver for: test_verify_price_is_displayed
+2026-03-06 23:18:08 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='RoundTripFlight'
+2026-03-06 23:18:08 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'RoundTripFlight'
+2026-03-06 23:18:08 [INFO] conftest: Setting up Chrome WebDriver for: test_search_round_trip_flight
+2026-03-06 23:18:12 [INFO] tests.test_end_to_end_booking: TC-09: Search round-trip flight
+2026-03-06 23:18:12 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:18:18 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:18:18 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:18:19 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:18:24 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:18:24 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:18:24 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:18:24 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-06 23:18:24 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-06 23:18:45 [INFO] pages.flight_search_page: Flight type set to: Round Trip (custom dropdown)
+2026-03-06 23:18:46 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:18:46 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:19:19 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:19:19 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:19:19 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:19:52 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:19:52 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:19:53 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-06 23:19:54 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:20:09 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:20:09 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260306_232009.png
+2026-03-06 23:20:09 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:20:17 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:20:25 [INFO] pages.base_page: Screenshot saved: screenshots\tc09_roundtrip_results_20260306_232025.png
+2026-03-06 23:20:30 [INFO] tests.test_end_to_end_booking: TC-09 PASSED: Round-trip flight search results displayed
+2026-03-06 23:20:30 [INFO] conftest: Tearing down WebDriver for: test_search_round_trip_flight
+2026-03-06 23:20:36 [INFO] conftest: Setting up Chrome WebDriver for: test_round_trip_results_have_prices
+2026-03-06 23:20:40 [INFO] tests.test_end_to_end_booking: TC-10: Verify round-trip results have prices
+2026-03-06 23:20:40 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:20:48 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:20:48 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:20:49 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:20:54 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:20:54 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:20:54 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:20:54 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-06 23:20:54 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-06 23:21:15 [INFO] pages.flight_search_page: Flight type set to: Round Trip (custom dropdown)
+2026-03-06 23:21:16 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:21:16 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:21:48 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:21:49 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:21:49 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:22:21 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:22:22 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:22:23 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-06 23:22:24 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:22:39 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:22:39 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260306_232239.png
+2026-03-06 23:22:39 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:22:46 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:22:54 [INFO] pages.base_page: Screenshot saved: screenshots\tc10_roundtrip_prices_20260306_232254.png
+2026-03-06 23:22:54 [INFO] tests.test_end_to_end_booking: TC-10 PASSED: Round-trip prices are displayed
+2026-03-06 23:22:54 [INFO] conftest: Tearing down WebDriver for: test_round_trip_results_have_prices
+2026-03-06 23:23:00 [INFO] conftest: Setting up Chrome WebDriver for: test_oneway_end_to_end_booking
+2026-03-06 23:23:03 [INFO] tests.test_end_to_end_booking: TC-11: One-way end-to-end booking flow
+2026-03-06 23:23:03 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:23:10 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:23:10 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:23:10 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:23:15 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:23:15 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:23:15 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:23:15 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:23:15 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:23:36 [INFO] pages.flight_search_page: Flight type set to: One Way (custom dropdown)
+2026-03-06 23:23:37 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:23:37 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:24:09 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:24:10 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:24:10 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:24:42 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:24:43 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:24:44 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:24:59 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:24:59 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_232459.png
+2026-03-06 23:24:59 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:25:06 [INFO] tests.test_end_to_end_booking: Step 1 complete: Search submitted
+2026-03-06 23:25:06 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:25:19 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_oneway_end_to_end_booking_20260306_232519.png
+2026-03-06 23:25:19 [INFO] conftest: Tearing down WebDriver for: test_oneway_end_to_end_booking
+2026-03-06 23:25:22 [INFO] conftest: Setting up Chrome WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-06 23:25:25 [INFO] tests.test_end_to_end_booking: TC-12: Round-trip end-to-end booking flow
+2026-03-06 23:25:25 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:25:32 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:25:32 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:25:33 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:25:38 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:25:38 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:25:38 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:25:38 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-06 23:25:38 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-06 23:25:59 [INFO] pages.flight_search_page: Flight type set to: Round Trip (custom dropdown)
+2026-03-06 23:26:01 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:26:01 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:26:33 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'BOM', leaving typed text
+2026-03-06 23:26:34 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:26:34 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[2]')
+2026-03-06 23:27:06 [WARNING] pages.flight_search_page: No suggestion dropdown found for 'DEL', leaving typed text
+2026-03-06 23:27:06 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:27:07 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-06 23:27:08 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:27:23 [WARNING] pages.flight_search_page: Could not set passenger count to: 1
+2026-03-06 23:27:24 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260306_232723.png
+2026-03-06 23:27:24 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:27:30 [INFO] tests.test_end_to_end_booking: Step 1 complete: Round-trip search submitted
+2026-03-06 23:27:30 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:27:44 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_roundtrip_end_to_end_booking_20260306_232743.png
+2026-03-06 23:27:44 [INFO] conftest: Tearing down WebDriver for: test_roundtrip_end_to_end_booking
+2026-03-06 23:35:43 [INFO] conftest: Setting up Chrome WebDriver for: test_flights_page_loads_successfully
+2026-03-06 23:35:46 [INFO] tests.test_end_to_end_booking: TC-01: Verify flights page loads
+2026-03-06 23:35:46 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:35:54 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:35:54 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:35:55 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:36:00 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:36:00 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:36:00 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:36:06 [INFO] pages.base_page: Screenshot saved: screenshots\tc01_page_loaded_20260306_233605.png
+2026-03-06 23:36:06 [INFO] tests.test_end_to_end_booking: TC-01 PASSED: Flights page loaded successfully
+2026-03-06 23:36:06 [INFO] conftest: Tearing down WebDriver for: test_flights_page_loads_successfully
+2026-03-06 23:36:12 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-06 23:36:12 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-06 23:36:12 [INFO] conftest: Setting up Chrome WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 23:36:15 [INFO] tests.test_end_to_end_booking: TC-02: Select departure & arrival cities
+2026-03-06 23:36:15 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:36:22 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:36:22 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:36:22 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:36:27 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:36:27 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:36:27 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:36:27 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:36:48 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:36:49 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:36:49 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:37:23 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:37:24 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:37:40 [INFO] pages.base_page: Screenshot saved: screenshots\tc02_cities_selected_20260306_233740.png
+2026-03-06 23:37:40 [INFO] tests.test_end_to_end_booking: TC-02 PASSED: Cities selected without error
+2026-03-06 23:37:40 [INFO] conftest: Tearing down WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 23:37:47 [INFO] conftest: Setting up Chrome WebDriver for: test_select_future_departure_date
+2026-03-06 23:37:50 [INFO] tests.test_end_to_end_booking: TC-03: Select future departure date
+2026-03-06 23:37:50 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:37:56 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:37:56 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:37:57 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:38:02 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:38:02 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:38:02 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:38:02 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:38:03 [INFO] pages.base_page: Screenshot saved: screenshots\tc03_future_date_set_20260306_233803.png
+2026-03-06 23:38:03 [INFO] tests.test_end_to_end_booking: TC-03 PASSED: Future departure date selected
+2026-03-06 23:38:03 [INFO] conftest: Tearing down WebDriver for: test_select_future_departure_date
+2026-03-06 23:38:09 [INFO] conftest: Setting up Chrome WebDriver for: test_select_number_of_passengers
+2026-03-06 23:38:13 [INFO] tests.test_end_to_end_booking: TC-04: Select number of passengers
+2026-03-06 23:38:13 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:38:20 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:38:20 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:38:20 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:38:25 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:38:25 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:38:25 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:38:25 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:38:40 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:38:41 [INFO] pages.base_page: Screenshot saved: screenshots\tc04_passengers_selected_20260306_233840.png
+2026-03-06 23:38:41 [INFO] tests.test_end_to_end_booking: TC-04 PASSED: Passenger count selected
+2026-03-06 23:38:41 [INFO] conftest: Tearing down WebDriver for: test_select_number_of_passengers
+2026-03-06 23:38:47 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_no_past_date_selection
+2026-03-06 23:38:51 [INFO] tests.test_end_to_end_booking: TC-05: Validate no past date selection
+2026-03-06 23:38:51 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:38:59 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:38:59 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:38:59 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:39:04 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:39:04 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:39:04 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:39:04 [INFO] tests.test_end_to_end_booking: Date input min attribute: ''
+2026-03-06 23:39:10 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_no_past_date_selection_20260306_233910.png
+2026-03-06 23:39:10 [INFO] conftest: Tearing down WebDriver for: test_validate_no_past_date_selection
+2026-03-06 23:39:13 [INFO] conftest: Setting up Chrome WebDriver for: test_search_one_way_flight
+2026-03-06 23:39:16 [INFO] tests.test_end_to_end_booking: TC-06: Search one-way flight
+2026-03-06 23:39:16 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:39:23 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:39:23 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:39:23 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:39:28 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:39:28 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:39:28 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:39:28 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:39:28 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:39:49 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:39:50 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:39:50 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:40:24 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:40:25 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:40:41 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:40:46 [WARNING] pages.flight_search_page: Departure date field not found
+2026-03-06 23:40:46 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:41:01 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:41:01 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_234101.png
+2026-03-06 23:41:01 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:41:21 [ERROR] pages.flight_search_page: Search button not found by any selector
+2026-03-06 23:41:21 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:41:56 [WARNING] pages.flight_results_page: Timed out waiting for results; proceeding anyway
+2026-03-06 23:41:56 [INFO] pages.base_page: Screenshot saved: screenshots\tc06_oneway_search_results_20260306_234156.png
+2026-03-06 23:42:02 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_search_one_way_flight_20260306_234201.png
+2026-03-06 23:42:02 [INFO] conftest: Tearing down WebDriver for: test_search_one_way_flight
+2026-03-06 23:42:04 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_search_results_displayed
+2026-03-06 23:42:07 [INFO] tests.test_end_to_end_booking: TC-07: Validate search results displayed
+2026-03-06 23:42:07 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:42:14 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:42:14 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:42:14 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:42:20 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:42:20 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:42:20 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:42:20 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:42:20 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:42:41 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:42:42 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:42:42 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:43:15 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:43:16 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:43:32 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:43:37 [WARNING] pages.flight_search_page: Departure date field not found
+2026-03-06 23:43:37 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:43:52 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:43:52 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_234352.png
+2026-03-06 23:43:52 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:44:13 [ERROR] pages.flight_search_page: Search button not found by any selector
+2026-03-06 23:44:13 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:44:47 [WARNING] pages.flight_results_page: Timed out waiting for results; proceeding anyway
+2026-03-06 23:44:53 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_search_results_displayed_20260306_234452.png
+2026-03-06 23:44:53 [INFO] conftest: Tearing down WebDriver for: test_validate_search_results_displayed
+2026-03-06 23:44:55 [INFO] conftest: Setting up Chrome WebDriver for: test_verify_price_is_displayed
+2026-03-06 23:44:59 [INFO] tests.test_end_to_end_booking: TC-08: Verify price is displayed
+2026-03-06 23:44:59 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:45:06 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:45:06 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:45:07 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:45:12 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:45:12 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:45:12 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:45:12 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:45:12 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:45:33 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:45:34 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:45:34 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:46:08 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:46:08 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:46:24 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:46:29 [WARNING] pages.flight_search_page: Departure date field not found
+2026-03-06 23:46:29 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:46:44 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:46:45 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_234644.png
+2026-03-06 23:46:45 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:47:05 [ERROR] pages.flight_search_page: Search button not found by any selector
+2026-03-06 23:47:05 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:47:39 [WARNING] pages.flight_results_page: Timed out waiting for results; proceeding anyway
+2026-03-06 23:47:39 [INFO] tests.test_end_to_end_booking: First displayed price: USD
+2026-03-06 23:47:40 [INFO] pages.base_page: Screenshot saved: screenshots\tc08_price_displayed_20260306_234739.png
+2026-03-06 23:47:40 [INFO] tests.test_end_to_end_booking: TC-08 PASSED: Price is displayed on results page
+2026-03-06 23:47:40 [INFO] conftest: Tearing down WebDriver for: test_verify_price_is_displayed
+2026-03-06 23:47:46 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='RoundTripFlight'
+2026-03-06 23:47:46 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'RoundTripFlight'
+2026-03-06 23:47:46 [INFO] conftest: Setting up Chrome WebDriver for: test_search_round_trip_flight
+2026-03-06 23:47:54 [INFO] tests.test_end_to_end_booking: TC-09: Search round-trip flight
+2026-03-06 23:47:54 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:48:02 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:48:02 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:48:02 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:48:08 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:48:08 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:48:08 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:48:08 [INFO] pages.flight_search_page: Starting round-trip flight search
+2026-03-06 23:48:08 [INFO] pages.flight_search_page: Selecting flight type: Round Trip
+2026-03-06 23:48:29 [INFO] pages.flight_search_page: Flight type set via custom dropdown: Round Trip
+2026-03-06 23:48:30 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:48:30 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:49:05 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:49:05 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:49:22 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:49:27 [WARNING] pages.flight_search_page: Departure date field not found
+2026-03-06 23:49:27 [INFO] pages.flight_search_page: Setting return date: 24-03-2026
+2026-03-06 23:49:32 [WARNING] pages.flight_search_page: Return date field not found
+2026-03-06 23:49:32 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:49:48 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:49:48 [INFO] pages.base_page: Screenshot saved: screenshots\search_roundtrip_filled_20260306_234948.png
+2026-03-06 23:49:48 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:50:08 [ERROR] pages.flight_search_page: Search button not found by any selector
+2026-03-06 23:50:08 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:50:39 [INFO] conftest: Tearing down WebDriver for: test_search_round_trip_flight
+2026-03-06 23:50:54 [INFO] conftest: Setting up Chrome WebDriver for: test_flights_page_loads_successfully
+2026-03-06 23:50:58 [INFO] tests.test_end_to_end_booking: TC-01: Verify flights page loads
+2026-03-06 23:50:58 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:51:05 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:51:05 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:51:06 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:51:11 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:51:11 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:51:11 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:51:16 [INFO] pages.base_page: Screenshot saved: screenshots\tc01_page_loaded_20260306_235116.png
+2026-03-06 23:51:16 [INFO] tests.test_end_to_end_booking: TC-01 PASSED: Flights page loaded successfully
+2026-03-06 23:51:16 [INFO] conftest: Tearing down WebDriver for: test_flights_page_loads_successfully
+2026-03-06 23:51:23 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='OneWayFlight'
+2026-03-06 23:51:23 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'OneWayFlight'
+2026-03-06 23:51:23 [INFO] conftest: Setting up Chrome WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 23:51:26 [INFO] tests.test_end_to_end_booking: TC-02: Select departure & arrival cities
+2026-03-06 23:51:26 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:51:34 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:51:34 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:51:35 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:51:40 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:51:40 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:51:40 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:51:40 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:52:01 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:52:02 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:52:02 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:52:36 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:52:38 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:52:54 [INFO] pages.base_page: Screenshot saved: screenshots\tc02_cities_selected_20260306_235253.png
+2026-03-06 23:52:54 [INFO] tests.test_end_to_end_booking: TC-02 PASSED: Cities selected without error
+2026-03-06 23:52:54 [INFO] conftest: Tearing down WebDriver for: test_select_departure_and_arrival_cities
+2026-03-06 23:53:02 [INFO] conftest: Setting up Chrome WebDriver for: test_select_future_departure_date
+2026-03-06 23:53:05 [INFO] tests.test_end_to_end_booking: TC-03: Select future departure date
+2026-03-06 23:53:05 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:53:12 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:53:12 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:53:13 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:53:18 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:53:18 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:53:18 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:53:18 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:53:19 [INFO] pages.base_page: Screenshot saved: screenshots\tc03_future_date_set_20260306_235319.png
+2026-03-06 23:53:19 [INFO] tests.test_end_to_end_booking: TC-03 PASSED: Future departure date selected
+2026-03-06 23:53:19 [INFO] conftest: Tearing down WebDriver for: test_select_future_departure_date
+2026-03-06 23:53:27 [INFO] conftest: Setting up Chrome WebDriver for: test_select_number_of_passengers
+2026-03-06 23:53:31 [INFO] tests.test_end_to_end_booking: TC-04: Select number of passengers
+2026-03-06 23:53:31 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:53:38 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:53:38 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:53:39 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:53:44 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:53:44 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:53:44 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:53:44 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:53:59 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:53:59 [INFO] pages.base_page: Screenshot saved: screenshots\tc04_passengers_selected_20260306_235359.png
+2026-03-06 23:53:59 [INFO] tests.test_end_to_end_booking: TC-04 PASSED: Passenger count selected
+2026-03-06 23:53:59 [INFO] conftest: Tearing down WebDriver for: test_select_number_of_passengers
+2026-03-06 23:54:05 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_no_past_date_selection
+2026-03-06 23:54:09 [INFO] tests.test_end_to_end_booking: TC-05: Validate no past date selection
+2026-03-06 23:54:09 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:54:17 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:54:17 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:54:17 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:54:22 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:54:22 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:54:22 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:54:22 [INFO] tests.test_end_to_end_booking: Date input min attribute: ''
+2026-03-06 23:54:28 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_no_past_date_selection_20260306_235428.png
+2026-03-06 23:54:28 [INFO] conftest: Tearing down WebDriver for: test_validate_no_past_date_selection
+2026-03-06 23:54:30 [INFO] conftest: Setting up Chrome WebDriver for: test_search_one_way_flight
+2026-03-06 23:54:34 [INFO] tests.test_end_to_end_booking: TC-06: Search one-way flight
+2026-03-06 23:54:34 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:54:42 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:54:42 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:54:43 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:54:48 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:54:48 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:54:48 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:54:48 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:54:48 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:55:09 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:55:10 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:55:10 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:55:44 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:55:46 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:56:01 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:56:06 [WARNING] pages.flight_search_page: Departure date field not found
+2026-03-06 23:56:06 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:56:21 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:56:21 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_235621.png
+2026-03-06 23:56:21 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:56:47 [ERROR] pages.flight_search_page: Search Flights button not found by any selector
+2026-03-06 23:56:47 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-06 23:57:22 [WARNING] pages.flight_results_page: Timed out waiting for results; proceeding anyway
+2026-03-06 23:57:22 [INFO] pages.base_page: Screenshot saved: screenshots\tc06_oneway_search_results_20260306_235722.png
+2026-03-06 23:57:28 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_search_one_way_flight_20260306_235727.png
+2026-03-06 23:57:28 [INFO] conftest: Tearing down WebDriver for: test_search_one_way_flight
+2026-03-06 23:57:30 [INFO] conftest: Setting up Chrome WebDriver for: test_validate_search_results_displayed
+2026-03-06 23:57:34 [INFO] tests.test_end_to_end_booking: TC-07: Validate search results displayed
+2026-03-06 23:57:34 [INFO] pages.base_page: Opening URL: https://phptravels.net/flights
+2026-03-06 23:57:41 [INFO] pages.flight_search_page: Page title: PHPTRAVELS
+2026-03-06 23:57:41 [INFO] pages.flight_search_page: Page URL: https://phptravels.net/flights
+2026-03-06 23:57:41 [INFO] pages.flight_search_page: Buttons on page: ['Services\nexpand_more', 'Company\nexpand_more', 'language\nEnglish\nexpand_more', 'payments\nUSD\nexpand_more', 'person_add\nSignup\nexpand_more', 'swap_horiz', 'search\nSearch Flights']
+2026-03-06 23:57:46 [INFO] pages.flight_search_page: Native selects found: 0
+2026-03-06 23:57:46 [INFO] pages.flight_search_page: Inputs found: 19
+2026-03-06 23:57:46 [INFO] pages.flight_search_page: Flight search page loaded
+2026-03-06 23:57:46 [INFO] pages.flight_search_page: Starting one-way flight search
+2026-03-06 23:57:46 [INFO] pages.flight_search_page: Selecting flight type: One Way
+2026-03-06 23:58:07 [INFO] pages.flight_search_page: Flight type set via custom dropdown: One Way
+2026-03-06 23:58:08 [INFO] pages.flight_search_page: Setting departure city: BOM
+2026-03-06 23:58:08 [DEBUG] pages.base_page: Waiting for clickable: (xpath, '(//input[@type='text'])[1]')
+2026-03-06 23:58:42 [INFO] pages.flight_search_page: Clicked suggestion for 'BOM' via: //ul//li[not(@disabled)]
+2026-03-06 23:58:43 [INFO] pages.flight_search_page: Setting arrival city: DEL
+2026-03-06 23:58:59 [INFO] pages.flight_search_page: Setting departure date: 17-03-2026
+2026-03-06 23:59:04 [WARNING] pages.flight_search_page: Departure date field not found
+2026-03-06 23:59:04 [INFO] pages.flight_search_page: Setting passenger count: 1
+2026-03-06 23:59:19 [WARNING] pages.flight_search_page: Could not set passenger count: 1
+2026-03-06 23:59:20 [INFO] pages.base_page: Screenshot saved: screenshots\search_oneway_filled_20260306_235919.png
+2026-03-06 23:59:20 [INFO] pages.flight_search_page: Clicking Search Flights button
+2026-03-06 23:59:45 [ERROR] pages.flight_search_page: Search Flights button not found by any selector
+2026-03-06 23:59:45 [INFO] pages.flight_results_page: Waiting for flight results to load...
+2026-03-07 00:00:20 [WARNING] pages.flight_results_page: Timed out waiting for results; proceeding anyway
+2026-03-07 00:00:26 [ERROR] conftest: Test FAILED — screenshot saved: screenshots\FAIL_test_validate_search_results_displayed_20260307_000025.png
+2026-03-07 00:00:26 [INFO] conftest: Tearing down WebDriver for: test_validate_search_results_displayed
+2026-03-07 00:00:28 [INFO] conftest: Setting up Chrome WebDriver for: test_verify_price_is_displayed
+2026-03-07 00:00:37 [INFO] utils.excel_utils: Reading test data from 'C:\Users\Sujan Kumar Reddy\PycharmProjects\PythonProject\CapstoneProject2\tests\..\test_data\test_data.xlsx', sheet='RoundTripFlight'
+2026-03-07 00:00:37 [INFO] utils.excel_utils: Loaded 1 test record(s) from sheet 'RoundTripFlight'
+2026-03-07 00:00:37 [INFO] conftest: Setting up Chrome WebDriver for: test_search_round_trip_flight
+2026-03-07 00:00:49 [INFO] conftest: Setting up Chrome WebDriver for: test_round_trip_results_have_prices
+2026-03-07 00:00:52 [INFO] conftest: Setting up Chrome WebDriver for: test_oneway_end_to_end_booking
+2026-03-07 00:00:56 [INFO] conftest: Setting up Chrome WebDriver for: test_roundtrip_end_to_end_booking
